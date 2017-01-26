@@ -5,9 +5,15 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.flex-menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .header {
     /*height: 50px;*/
-    text-align: center;
+    /*text-align: center;*/
     font-size: 20px;
     color: #000;
     background-color: #fefefe;
