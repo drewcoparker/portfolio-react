@@ -1,13 +1,19 @@
+// React and Router
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import About from './About';
-import Experience from './Experience';
-import Home from './Home';
-import Projects from './Projects';
-import Contact from './Contact';
-import './index.css';
 import { Router, Route, Link, hashHistory, IndexRoute } from 'react-router'
+
+// Custom components
+import App from './components/App';
+import About from './components/About';
+import Experience from './components/Experience';
+import Home from './components/Home';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+
+// CSS
+import './index.css';
+
 
 ReactDOM.render(
     <Router history={hashHistory}>
