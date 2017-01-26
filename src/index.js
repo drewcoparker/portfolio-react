@@ -14,7 +14,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 
 // CSS
-import './index.css';
+import './styles.css';
 
 ReactDOM.render(
     <Router history={hashHistory}>
