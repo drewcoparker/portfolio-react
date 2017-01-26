@@ -9,7 +9,7 @@ class Header extends Component {
             <div className='header'>
                 <div className="flex-menu-container">
                     <div className="flex-menu-item"><Link to="/about-me">About Me</Link></div>
-                    <div className="flex-menu-item"><Link to="/experience">Experience</Link></div>
+                    <div className="flex-menu-item"><Link to="/experience/professional">Experience</Link></div>
                     <div className="flex-menu-item"><Link to="/projects">Projects</Link></div>
                     <div className="flex-menu-item"><Link to="/contact">Contact</Link></div>
                 </div>
