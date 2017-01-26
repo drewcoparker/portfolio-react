@@ -14,7 +14,6 @@ import Contact from './components/Contact';
 // CSS
 import './index.css';
 
-
 ReactDOM.render(
     <Router history={hashHistory}>
         <Route path="/" component={App} >
