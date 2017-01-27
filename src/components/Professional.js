@@ -53,16 +53,16 @@ function Professional() {
                         providing documentation for the LayOut C API
                     </li>
                     <li>
-                        Administered SketchUp’s beta program and oversaw
+                        Administered SketchUp&#39;s beta program and oversaw
                         its growth to well over 500 members
                     </li>
                     <li>
                         Developed an image diffing program in Ruby to
-                        assist developers while tuning LayOut’s pdf
+                        assist developers while tuning LayOut&#39;s pdf
                         exporting engine
                     </li>
                     <li>
-                        Participated as a mentor in SketchUp’s Autism
+                        Participated as a mentor in SketchUp&#39;s Autism
                         Internship Program
                     </li>
                 </ul>

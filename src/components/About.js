@@ -9,7 +9,7 @@ class About extends Component {
                 <div className="about-container">
                     <div className="about-blurb">
                         <p>
-                            I'm a fullstack developer in Atlanta, GA. I have 5 years
+                            I&#39;m a fullstack developer in Atlanta, GA. I have 5 years
                             of experience as a Quality Assurance Engineer well as a
                             Master of Science Degree in GIS.
                         </p>
