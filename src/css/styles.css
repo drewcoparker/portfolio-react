@@ -5,7 +5,7 @@ body {
 
 /* line 6, ../../compass/sass/styles.scss */
 .App {
-  font-family: 'Oxygen', sans-serif;
+  font-family: BlinkMacSystemFont, sans-serif;
 }
 
 /* line 12, ../../compass/sass/styles.scss */
@@ -13,55 +13,83 @@ body {
   font-size: 20px;
   color: #000;
   background-color: #D0D0D0;
-  /*box-shadow: 0px 1px 2px rgba(0,0,0,0.4);*/
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* line 19, ../../compass/sass/styles.scss */
-.flex-menu-container {
-  display: flex;
+/* line 20, ../../compass/sass/styles.scss */
+.header-container {
   text-decoration: none;
+  display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
 
-/* line 26, ../../compass/sass/styles.scss */
-.flex-menu-item {
-  padding: 20px 0;
+/* line 27, ../../compass/sass/styles.scss */
+.header-menu-item {
+  padding: 20px 20px;
 }
-/* line 28, ../../compass/sass/styles.scss */
-.flex-menu-item a {
+/* line 29, ../../compass/sass/styles.scss */
+.header-menu-item a {
   text-decoration: none;
   color: #000;
 }
 
 /* line 35, ../../compass/sass/styles.scss */
-.flex-menu-item.active {
-  background-color: #9EBC9F;
+.active {
+  color: #DA3935;
 }
 
-/* line 39, ../../compass/sass/styles.scss */
-.flex-menu-item:hover {
-  background-color: #eee;
+/* line 42, ../../compass/sass/styles.scss */
+.home-menu {
+  background-color: #E6EBE0;
+  display: flex;
+  height: 40px;
+  text-decoration: none;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-/* line 46, ../../compass/sass/styles.scss */
+/* line 52, ../../compass/sass/styles.scss */
 .home-container {
-  max-width: 50em;
-  margin: auto;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  background: url("../images/pct.jpg") no-repeat center;
+  background-size: cover;
+  font-size: 70px;
+  color: #fff;
 }
 
-/* line 54, ../../compass/sass/styles.scss */
+/* line 62, ../../compass/sass/styles.scss */
+.home-text {
+  margin-top: 80px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+/* line 68, ../../compass/sass/styles.scss */
+.about-menu {
+  background-color: #E6EBE0;
+  display: flex;
+  height: 40px;
+  text-decoration: none;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* line 77, ../../compass/sass/styles.scss */
 .about-container {
-  max-width: 50em;
   margin: auto;
+  max-width: 500px;
+  background-color: #fff;
+  padding: 50px;
 }
 
-/* line 59, ../../compass/sass/styles.scss */
+/* line 84, ../../compass/sass/styles.scss */
 .skills {
   margin-top: 80px;
 }
 
-/* line 63, ../../compass/sass/styles.scss */
+/* line 88, ../../compass/sass/styles.scss */
 .skills-container {
   display: flex;
   text-decoration: none;
@@ -69,92 +97,128 @@ body {
   justify-content: space-around;
 }
 
-/* line 70, ../../compass/sass/styles.scss */
+/* line 95, ../../compass/sass/styles.scss */
 #skills-title {
+  margin: 20px;
   text-align: center;
 }
 
-/* line 83, ../../compass/sass/styles.scss */
-.experience-container {
-  max-width: 50em;
-  margin: auto;
+/* line 100, ../../compass/sass/styles.scss */
+.skills-1 div {
+  padding: 3px;
 }
 
-/* line 88, ../../compass/sass/styles.scss */
+/* line 104, ../../compass/sass/styles.scss */
+.skills-2 div {
+  padding: 3px;
+}
+
+/* line 113, ../../compass/sass/styles.scss */
 .experience-menu {
-  background-color: #E6E6E6;
+  background-color: #E6EBE0;
   display: flex;
+  height: 40px;
   text-decoration: none;
   flex-direction: row;
   justify-content: space-around;
 }
 
-/* line 96, ../../compass/sass/styles.scss */
+/* line 122, ../../compass/sass/styles.scss */
 .experience-menu-item {
+  max-width: 20em;
+  margin: auto;
   padding: 10px;
 }
-/* line 98, ../../compass/sass/styles.scss */
+/* line 126, ../../compass/sass/styles.scss */
 .experience-menu-item a {
   text-decoration: none;
   color: #000;
 }
 
-/* line 108, ../../compass/sass/styles.scss */
-.work-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-/* line 114, ../../compass/sass/styles.scss */
+/* line 140, ../../compass/sass/styles.scss */
 .work-item {
+  margin: auto;
+  max-width: 500px;
   background-color: #fff;
-  margin: 40px 20px;
+  padding: 50px;
 }
-/* line 117, ../../compass/sass/styles.scss */
+/* line 145, ../../compass/sass/styles.scss */
 .work-item p {
+  padding: 5px;
   text-align: center;
 }
+/* line 149, ../../compass/sass/styles.scss */
+.work-item ul {
+  list-style: square;
+}
+/* line 152, ../../compass/sass/styles.scss */
+.work-item li {
+  padding: 5px 0;
+}
 
-/* line 122, ../../compass/sass/styles.scss */
+/* line 157, ../../compass/sass/styles.scss */
 .work-img {
   display: block;
   margin: auto;
   max-width: 150px;
 }
 
-/* line 131, ../../compass/sass/styles.scss */
-.edu-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-/* line 137, ../../compass/sass/styles.scss */
+/* line 170, ../../compass/sass/styles.scss */
 .edu-item {
+  margin: auto;
+  max-width: 500px;
   background-color: #fff;
-  margin: 40px 20px;
+  padding: 50px;
 }
-/* line 140, ../../compass/sass/styles.scss */
+/* line 175, ../../compass/sass/styles.scss */
 .edu-item p {
+  padding: 5px;
   text-align: center;
 }
+/* line 179, ../../compass/sass/styles.scss */
+.edu-item ul {
+  list-style: square;
+}
+/* line 182, ../../compass/sass/styles.scss */
+.edu-item li {
+  padding: 5px 0;
+}
 
-/* line 145, ../../compass/sass/styles.scss */
+/* line 187, ../../compass/sass/styles.scss */
 .edu-img {
   display: block;
   margin: auto;
   max-width: 150px;
 }
 
-/* line 154, ../../compass/sass/styles.scss */
+/* line 196, ../../compass/sass/styles.scss */
+.projects-menu {
+  background-color: #E6EBE0;
+  display: flex;
+  height: 40px;
+  text-decoration: none;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* line 205, ../../compass/sass/styles.scss */
 .projects-container {
   max-width: 50em;
   margin: auto;
 }
 
-/* line 162, ../../compass/sass/styles.scss */
-.contacts-container {
+/* line 213, ../../compass/sass/styles.scss */
+.contact-menu {
+  background-color: #E6EBE0;
+  display: flex;
+  height: 40px;
+  text-decoration: none;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* line 222, ../../compass/sass/styles.scss */
+.contact-container {
   max-width: 50em;
   margin: auto;
 }

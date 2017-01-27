@@ -4,7 +4,7 @@ body {
 }
 
 .App {
-    font-family: 'Oxygen', sans-serif;
+    font-family: BlinkMacSystemFont, sans-serif;
 }
 
 
@@ -13,47 +13,72 @@ body {
     font-size: 20px;
     color: #000;
     background-color: #D0D0D0;
-    /*box-shadow: 0px 1px 2px rgba(0,0,0,0.4);*/
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.4);
 }
 
-.flex-menu-container {
-    display: flex;
+
+.header-container {
     text-decoration: none;
+    display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.flex-menu-item {
-    padding: 20px 0;
+.header-menu-item{
+    padding: 20px 20px;
     a {
         text-decoration: none;
         color: #000;
     }
 }
 
-
-.flex-menu-item.active {
-    background-color: #9EBC9F;
+.active {
+    color: #DA3935;
+    // color: #fff;
 }
-
-.flex-menu-item:hover {
-    background-color: #eee;
-}
-
 
 
 // Home component
-.home-container {
-    max-width: 50em;
-    margin: auto;
+.home-menu {
+    background-color: #E6EBE0;
+    display: flex;
+    height: 40px;
+    text-decoration: none;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 
+.home-container {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background: url('../images/pct.jpg') no-repeat center;
+    background-size: cover;
+    font-size: 70px;
+    color: #fff;
+}
+
+.home-text {
+    margin-top: 80px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
 
 // About component
+.about-menu {
+    background-color: #E6EBE0;
+    display: flex;
+    height: 40px;
+    text-decoration: none;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .about-container {
-    max-width: 50em;
     margin: auto;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 50px;
 }
 
 .skills {
@@ -68,32 +93,35 @@ body {
 }
 
 #skills-title {
+    margin: 20px;
     text-align: center;
 }
 
-.skills-1 {
-
+.skills-1 div {
+    padding: 3px;
 }
 
-.skills-2 {
-
+.skills-2 div {
+    padding: 3px;
 }
 
 // Experience component
 .experience-container {
-    max-width: 50em;
-    margin: auto;
+
 }
 
 .experience-menu {
-    background-color: #E6E6E6;
+    background-color: #E6EBE0;
     display: flex;
+    height: 40px;
     text-decoration: none;
     flex-direction: row;
     justify-content: space-around;
 }
 
 .experience-menu-item {
+    max-width: 20em;
+    margin: auto;
     padding: 10px;
     a {
         text-decoration: none;
@@ -106,16 +134,23 @@ body {
 
 // Professional component
 .work-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+
 }
 
 .work-item {
+    margin: auto;
+    max-width: 500px;
     background-color: #fff;
-    margin: 40px 20px;
+    padding: 50px;
     p {
+        padding: 5px;
         text-align: center;
+    }
+    ul {
+        list-style: square;
+    }
+    li {
+        padding: 5px 0;
     }
 }
 
@@ -129,16 +164,23 @@ body {
 
 // Education component
 .edu-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+
 }
 
 .edu-item {
+    margin: auto;
+    max-width: 500px;
     background-color: #fff;
-    margin: 40px 20px;
+    padding: 50px;
     p {
+        padding: 5px;
         text-align: center;
+    }
+    ul {
+        list-style: square;
+    }
+    li {
+        padding: 5px 0;
     }
 }
 
@@ -151,6 +193,15 @@ body {
 
 
 // Projects component
+.projects-menu {
+    background-color: #E6EBE0;
+    display: flex;
+    height: 40px;
+    text-decoration: none;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .projects-container {
     max-width: 50em;
     margin: auto;
@@ -158,8 +209,17 @@ body {
 
 
 
-// Contacts component
-.contacts-container {
+// Contact component
+.contact-menu {
+    background-color: #E6EBE0;
+    display: flex;
+    height: 40px;
+    text-decoration: none;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact-container {
     max-width: 50em;
     margin: auto;
 }

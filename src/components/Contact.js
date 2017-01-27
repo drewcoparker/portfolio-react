@@ -4,8 +4,11 @@ class Contact extends Component {
 
     render() {
         return(
-            <div className="contacts-container">
+            <div className="contact">
+                <div className="contact-menu"></div>
+                <div className="contact-container">
 
+                </div>
             </div>
         )
     }
