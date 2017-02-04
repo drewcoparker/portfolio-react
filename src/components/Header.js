@@ -9,25 +9,29 @@ class Header extends Component {
             <div className="header">
                 <div className="header-container">
 
-                    <div className="header-menu-item">
+                    <div className="header-brand">
                         <Link to="/">Drew Parker</Link>
                     </div>
-                    <div className="header-menu-item">
-                        <Link to="/about-me"
-                            activeStyle={{color: '#DA3935'}}>About Me</Link>
+
+                    <div className="header-menu-items">
+                        <div className="menu-item">
+                            <Link to="/about-me"
+                                activeStyle={{color: '#DA3935'}}>About Me</Link>
+                        </div>
+                        <div className="menu-item">
+                            <Link to="/experience/professional"
+                                activeStyle={{color: '#DA3935'}}>Experience</Link>
+                        </div>
+                        <div className="menu-item">
+                            <Link to="/projects"
+                                activeStyle={{color: '#DA3935'}}>Projects</Link>
+                        </div>
+                        <div className="menu-item">
+                            <Link to="/contact"
+                                activeStyle={{color: '#DA3935'}}>Contact</Link>
+                        </div>
                     </div>
-                    <div className="header-menu-item">
-                        <Link to="/experience/professional"
-                            activeStyle={{color: '#DA3935'}}>Experience</Link>
-                    </div>
-                    <div className="header-menu-item">
-                        <Link to="/projects"
-                            activeStyle={{color: '#DA3935'}}>Projects</Link>
-                    </div>
-                    <div className="header-menu-item">
-                        <Link to="/contact"
-                            activeStyle={{color: '#DA3935'}}>Contact</Link>
-                    </div>
+
                 </div>
             </div>
         )

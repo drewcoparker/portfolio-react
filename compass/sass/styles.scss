@@ -18,13 +18,20 @@ body {
 
 
 .header-container {
+    // text-decoration: none;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: center;
+}
+
+.header-menu-items{
     text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.header-menu-item{
+.menu-item{
     padding: 20px 20px;
     a {
         text-decoration: none;
