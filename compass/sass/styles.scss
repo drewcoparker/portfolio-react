@@ -13,7 +13,7 @@ body {
     position: fixed;
     width: 100%;
     font-size: 20px;
-    height: 80px;
+    // height: 80px;
     color: #000;
     background-color: rgba(255, 255, 255, 0.98);
     box-shadow: 0px 1px 2px rgba(0,0,0,0.4);
@@ -83,7 +83,7 @@ body {
 }
 
 .pusher {
-    height: 200px;
+    height: 100px;
 }
 
 // About component
@@ -155,13 +155,13 @@ body {
 
 
 // Professional component
-.work-container {
+.work-container, .edu-container {
     max-width: 800px;
     margin: auto;
 }
 
-.work-item {
-    height: 500px;
+.work-item, .edu-item {
+    min-height: 400px;
     border-top: 3px solid #BA160C;
     box-shadow: -1px 0 2px 0 rgba(0,0,0,0.12), 1px 0 2px 0 rgba(0,0,0,0.12), 0 1px 1px 0 rgba(0,0,0,0.24);
     background-color: #fff;
@@ -188,26 +188,26 @@ body {
 
 
 // Education component
-.edu-container {
+// .edu-container {
+//
+// }
 
-}
-
-.edu-item {
-    margin: auto;
-    max-width: 500px;
-    background-color: #fff;
-    padding: 50px;
-    p {
-        padding: 5px;
-        text-align: center;
-    }
-    ul {
-        list-style: square;
-    }
-    li {
-        padding: 5px 0;
-    }
-}
+// .edu-item {
+//     margin: auto;
+//     max-width: 500px;
+//     background-color: #fff;
+//     padding: 50px;
+//     p {
+//         padding: 5px;
+//         text-align: center;
+//     }
+//     ul {
+//         list-style: square;
+//     }
+//     li {
+//         padding: 5px 0;
+//     }
+// }
 
 .edu-img {
     display: block;
