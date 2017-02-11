@@ -1,6 +1,6 @@
 
 body {
-    background-color: #FDFDFD;
+    background-color: #f7f7f7;
 }
 
 .App {
@@ -10,10 +10,12 @@ body {
 
 // Header section
 .header {
-    position: relative;
+    position: fixed;
+    width: 100%;
     font-size: 20px;
+    height: 80px;
     color: #000;
-    background-color: #D0D0D0;
+    background-color: rgba(255, 255, 255, 0.98);
     box-shadow: 0px 1px 2px rgba(0,0,0,0.4);
 }
 
@@ -49,7 +51,7 @@ body {
 }
 
 .active {
-    color: #DA3935;
+    color: #BA160C;
     // color: #fff;
 }
 
@@ -78,6 +80,10 @@ body {
 .home-text {
     margin-top: 80px;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+
+.pusher {
+    height: 200px;
 }
 
 // About component
@@ -150,14 +156,17 @@ body {
 
 // Professional component
 .work-container {
-
+    max-width: 800px;
+    margin: auto;
 }
 
 .work-item {
-    margin: auto;
-    max-width: 500px;
+    height: 500px;
+    border-top: 3px solid #BA160C;
+    box-shadow: -1px 0 2px 0 rgba(0,0,0,0.12), 1px 0 2px 0 rgba(0,0,0,0.12), 0 1px 1px 0 rgba(0,0,0,0.24);
     background-color: #fff;
     padding: 50px;
+    margin: 20px auto;
     p {
         padding: 5px;
         text-align: center;

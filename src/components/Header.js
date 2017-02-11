@@ -19,8 +19,12 @@ class Header extends Component {
                                 activeStyle={{color: '#DA3935'}}>About Me</Link>
                         </div>
                         <div className="menu-item">
-                            <Link to="/experience/professional"
+                            <Link to="/experience"
                                 activeStyle={{color: '#DA3935'}}>Experience</Link>
+                        </div>
+                        <div className="menu-item">
+                            <Link to="/education"
+                                activeStyle={{color: '#DA3935'}}>Education</Link>
                         </div>
                         <div className="menu-item">
                             <Link to="/projects"
