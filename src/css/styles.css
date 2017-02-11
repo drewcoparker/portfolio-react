@@ -33,7 +33,7 @@ body {
   font-size: 14px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 /* line 45, ../../compass/sass/styles.scss */
@@ -44,11 +44,6 @@ body {
 .menu-item a {
   text-decoration: none;
   color: #000;
-}
-
-/* line 53, ../../compass/sass/styles.scss */
-.active {
-  color: #BA160C;
 }
 
 /* line 60, ../../compass/sass/styles.scss */

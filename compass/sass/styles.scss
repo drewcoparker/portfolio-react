@@ -39,7 +39,7 @@ body {
     font-size: 14px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .menu-item{
@@ -50,10 +50,10 @@ body {
     }
 }
 
-.active {
-    color: #BA160C;
-    // color: #fff;
-}
+// .active {
+//     color: #FFBA08;
+//     // color: #fff;
+// }
 
 
 // Home component
