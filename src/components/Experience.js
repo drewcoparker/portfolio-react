@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router'
+import { Link } from 'react-router';
 
 class Experience extends Component {
 
@@ -12,22 +12,13 @@ class Experience extends Component {
                          role={"presentation"} />
                     <p>Fullstack Developer in Training</p>
                     <p>Nov 2016 - Mar 2017</p>
-                    <ul>
-                        <li>
-                            Mastering frontend design and development
-                            principles using HTML5, CSS3, and Javascript,
-                            JQuery, React.js, and Bootstrap.css
-                        </li>
-                        <li>
-                            Daily participation at pair-programming,
-                            algorithm development, and code integration
-                        </li>
-                        <li>
-                            Backend technologies including Apache Servers,
-                            SQL and NoSQL databases, Node.js, Python, and
-                            Express
-                        </li>
-                    </ul>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-xs-12 col-md-4 card">asdfasdf</div>
+                            <div className="col-xs-12 col-md-4 card">asdfasdf</div>
+                            <div className="col-xs-12 col-md-4 card">asdfasdf</div>
+                        </div>
+                    </div>
                 </div>
                 <div className="work-item">
                     <img className="work-img"
@@ -117,3 +108,19 @@ export default Experience;
 //     </div>
 //     {this.props.children}
 // </div>
+// <ul>
+//     <li>
+//         Mastering frontend design and development
+//         principles using HTML5, CSS3, and Javascript,
+//         JQuery, React.js, and Bootstrap.css
+//     </li>
+//     <li>
+//         Daily participation at pair-programming,
+//         algorithm development, and code integration
+//     </li>
+//     <li>
+//         Backend technologies including Apache Servers,
+//         SQL and NoSQL databases, Node.js, Python, and
+//         Express
+//     </li>
+// </ul>

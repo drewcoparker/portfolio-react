@@ -4,7 +4,10 @@ body {
 }
 
 .App {
-    font-family: 'Futura', BlinkMacSystemFont, sans-serif;
+    // font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
+    // font-family: 'Open Sans', sans-serif;
+    // font-family: 'Futura', BlinkMacSystemFont, sans-serif;
 }
 
 
@@ -152,8 +155,6 @@ body {
 }
 
 
-
-
 // Professional component
 .work-container, .edu-container {
     max-width: 800px;
@@ -247,4 +248,10 @@ body {
 .contact-container {
     max-width: 50em;
     margin: auto;
+}
+
+.card {
+    margin: 0 15px 25px;
+    border: 1px dashed rgba(0,0,0,0.5);
+    height: 100px;
 }
