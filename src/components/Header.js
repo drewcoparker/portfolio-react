@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router'
 
+// Import the react-scroll module
+var Scroll = require('react-scroll')
+var Link = Scroll.Link;
+var Events = Scroll.Events;
+var scrollSpy = Scroll.scrollSpy;
+
 
 class Header extends Component {
 
