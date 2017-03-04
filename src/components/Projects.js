@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Scroll, { Helpers } from 'react-scroll';
 
 class Projects extends Component {
 
@@ -14,5 +15,4 @@ class Projects extends Component {
     }
 }
 
-
-export default Projects;
+export default Helpers.Element(Projects);

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Scroll, { Helpers } from 'react-scroll';
 
 class About extends Component {
 
@@ -39,6 +40,4 @@ class About extends Component {
     }
 }
 
-
-
-export default About;
+export default Helpers.Element(About);

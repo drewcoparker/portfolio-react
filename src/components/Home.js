@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Scroll, { Helpers } from 'react-scroll';
 
 class Home extends Component {
     render(){
@@ -13,4 +14,4 @@ class Home extends Component {
     }
 }
 
-export default Home;
+export default Helpers.Element(Home);

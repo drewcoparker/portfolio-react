@@ -1,14 +1,53 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router'
+import Scroll, { Link, DirectLink, Element, Events, animateScroll, scrollSpy } from 'react-scroll';
 
 // Import the react-scroll module
-var Scroll = require('react-scroll')
-var Link = Scroll.Link;
-var Events = Scroll.Events;
-var scrollSpy = Scroll.scrollSpy;
+// var Scroll = require('react-scroll');
+// var Link       = Scroll.Link;
+// var DirectLink = Scroll.DirectLink;
+// var Element    = Scroll.Element;
+// var Events     = Scroll.Events;
+// var scroll     = Scroll.animateScroll;
+// var scrollSpy  = Scroll.scrollSpy;
 
 
 class Header extends Component {
+
+    componentDidMount() {
+        Events.scrollEvent.register('begin', (to, element) => {
+            console.log("begin", arguments);
+        });
+
+        Events.scrollEvent.register('end', (to, element) => {
+            console.log("end", arguments);
+        });
+
+        scrollSpy.update();
+    }
+
+    componentWillUnmount() {
+
+    }
+
+    scrollToTop() {
+
+    }
+
+    scrollToBottom() {
+
+    }
+
+    scrollTo() {
+
+    }
+
+    scrollMore() {
+
+    }
+
+    handleSetActive() {
+
+    }
 
     render() {
         return(
@@ -16,29 +55,66 @@ class Header extends Component {
                 <div className="header-container">
 
                     <div className="header-brand">
-                        <Link to="/">Drew Parker</Link>
+                        <Link
+                            activeClass="active"
+                            to="home"
+                            spy={true}
+                            smooth={true}
+                            duration={500} >
+                            Drew Parker
+                        </Link>
                     </div>
 
                     <div className="header-menu-items">
                         <div className="menu-item">
-                            <Link to="/about-me"
-                                activeStyle={{color: '#DA3935'}}>About Me</Link>
+                            <Link
+                                activeClass="active"
+                                to="about"
+                                spy={true}
+                                smooth={true}
+                                duration={500} >
+                                About
+                            </Link>
                         </div>
                         <div className="menu-item">
-                            <Link to="/experience"
-                                activeStyle={{color: '#DA3935'}}>Experience</Link>
+                            <Link
+                                activeClass="active"
+                                to="experience"
+                                spy={true}
+                                smooth={true}
+                                duration={500} >
+                                Experience
+                            </Link>
                         </div>
                         <div className="menu-item">
-                            <Link to="/education"
-                                activeStyle={{color: '#FFBA08'}}>Education</Link>
+                            <Link
+                                activeClass="active"
+                                to="education"
+                                spy={true}
+                                smooth={true}
+                                duration={500} >
+                                Education
+                            </Link>
                         </div>
                         <div className="menu-item">
-                            <Link to="/projects"
-                                activeStyle={{color: '#DA3935'}}>Projects</Link>
+                            <Link
+                                activeClass="active"
+                                to="projects"
+                                spy={true}
+                                smooth={true}
+                                duration={500} >
+                                Projects
+                            </Link>
                         </div>
                         <div className="menu-item">
-                            <Link to="/contact"
-                                activeStyle={{color: '#DA3935'}}>Contact</Link>
+                            <Link
+                                activeClass="active"
+                                to="contact"
+                                spy={true}
+                                smooth={true}
+                                duration={500} >
+                                Contact
+                            </Link>
                         </div>
                     </div>
 

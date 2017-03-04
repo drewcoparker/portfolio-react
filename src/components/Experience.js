@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
+import Scroll, { Helpers } from 'react-scroll';
+
 
 class Experience extends Component {
 
@@ -90,8 +91,7 @@ class Experience extends Component {
     }
 }
 
-
-export default Experience;
+export default Helpers.Element(Experience);
 
 
 // <div className="experience-container">

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Scroll, { Helpers } from 'react-scroll';
 
 class Contact extends Component {
 
@@ -14,6 +15,4 @@ class Contact extends Component {
     }
 }
 
-
-
-export default Contact;
+export default Helpers.Element(Contact);

@@ -1,4 +1,5 @@
 import React from 'react';
+import Scroll, { Helpers } from 'react-scroll';
 
 function Education() {
     return(
@@ -47,4 +48,4 @@ function Education() {
     )
 }
 
-export default Education;
+export default Helpers.Element(Education);
