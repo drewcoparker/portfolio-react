@@ -18,8 +18,8 @@ body {
     width: 100%;
     font-size: 20px;
     // height: 80px;
-    color: #000;
-    background-color: rgba(255, 255, 255, 0.98);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.88);
     box-shadow: 0px 1px 2px rgba(0,0,0,0.4);
 }
 
@@ -49,26 +49,29 @@ body {
 .menu-item{
     padding: 20px 20px;
     a {
+        text-transform: uppercase;
         text-decoration: none;
-        color: #000;
+        color: #fff;
     }
 }
 
-// .active {
-//     color: #FFBA08;
-//     // color: #fff;
-// }
+.active-experience {
+    border-bottom: 3px solid #BA160C;
+}
+
+.active-education {
+    border-bottom: 3px solid #FFA630;
+}
+
+.active-projects {
+    border-bottom: 3px solid #7CA982;
+}
+
+.active-contact {
+    border-bottom: 3px solid #3993DD;
+}
 
 
-// Home component
-// .home-menu {
-//     background-color: #E6EBE0;
-//     // display: flex;
-//     height: 40px;
-//     // text-decoration: none;
-//     // flex-direction: row;
-//     // justify-content: space-around;
-// }
 
 .home {
     padding-top: 54px;
@@ -134,37 +137,32 @@ body {
     padding: 3px;
 }
 
-// Experience component
-.experience-container {
-
-}
-
-// .experience-menu {
-//     background-color: #E6EBE0;
-//     display: flex;
-//     height: 40px;
-//     text-decoration: none;
-//     flex-direction: row;
-//     justify-content: space-around;
-// }
-//
-// .experience-menu-item {
-//     max-width: 20em;
-//     margin: auto;
-//     padding: 10px;
-//     a {
-//         text-decoration: none;
-//         color: #000;
-//     }
-// }
 
 .experience, .education, .projects, .contact {
     padding-top: 54px;
 }
 
 // The section headers
+.section-header {
+    // height: 50px;
+    width: 150px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 1px 0 2px rgba(255,255,255,0.8);
+    // padding: 10px;
+    border-radius: 0 0 5px 5px;
+
+}
+
+.experience-container, .edu-container, .projects-container, .contact-container {
+    box-shadow: -1px 0 2px 0 rgba(0,0,0,0.12), 1px 0 2px 0 rgba(0,0,0,0.12), 0 1px 1px 0 rgba(0,0,0,0.24);
+}
+
 .experience-container {
     border-top: 5px solid #BA160C;
+    background-color: rgba(186, 22, 12,0.3)
 }
 
 #experience-header {
@@ -173,7 +171,7 @@ body {
 
 .edu-container  {
     border-top: 5px solid #FFA630;
-
+    background-color: rgba(255,166,48,0.3)
 }
 
 #education-header {
@@ -183,6 +181,7 @@ body {
 .projects-container  {
     border-top: 5px solid #7CA982;
     min-height: 400px;
+    background-color: rgba(124,169,130,0.3)
 }
 
 #projects-header {
@@ -192,16 +191,12 @@ body {
 .contact-container  {
     border-top: 5px solid #3993DD;
     min-height: 800px;
+    background-color: rgba(57,147,221,0.3)
 }
 
 #contact-header {
     background-color: #3993DD;
 }
-
-
-
-
-
 
 
 
@@ -230,42 +225,6 @@ body {
 }
 
 
-
-// Education component
-// .edu-container {
-//
-// }
-
-// .edu-item {
-//     margin: auto;
-//     max-width: 500px;
-//     background-color: #fff;
-//     padding: 50px;
-//     p {
-//         padding: 5px;
-//         text-align: center;
-//     }
-//     ul {
-//         list-style: square;
-//     }
-//     li {
-//         padding: 5px 0;
-//     }
-// }
-
-
-
-
-// Projects component
-// .projects-menu {
-//     background-color: #E6EBE0;
-//     display: flex;
-//     height: 40px;
-//     text-decoration: none;
-//     flex-direction: row;
-//     justify-content: space-around;
-// }
-
 .projects-container {
     // max-width: 50em;
     // margin: auto;
@@ -273,18 +232,5 @@ body {
 
 
 .contact-container {
-
-}
-
-.section-header {
-    // height: 50px;
-    width: 150px;
-    // text-align: center;
-    line-height: 25px;
-    font-size: 20px;
-    color: #fff;
-
-    // padding: 10px;
-    border-radius: 0 0 10px 0;
 
 }

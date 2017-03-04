@@ -68,7 +68,7 @@ class Header extends Component {
                         </div>
                         <div className="menu-item">
                             <Link
-                                activeClass="active"
+                                activeClass="active-experience"
                                 to="experience"
                                 spy={true}
                                 smooth={true}
@@ -78,7 +78,7 @@ class Header extends Component {
                         </div>
                         <div className="menu-item">
                             <Link
-                                activeClass="active"
+                                activeClass="active-education"
                                 to="education"
                                 spy={true}
                                 smooth={true}
@@ -88,7 +88,7 @@ class Header extends Component {
                         </div>
                         <div className="menu-item">
                             <Link
-                                activeClass="active"
+                                activeClass="active-projects"
                                 to="projects"
                                 spy={true}
                                 smooth={true}
@@ -98,7 +98,7 @@ class Header extends Component {
                         </div>
                         <div className="menu-item">
                             <Link
-                                activeClass="active"
+                                activeClass="active-contact"
                                 to="contact"
                                 spy={true}
                                 smooth={true}

@@ -5,7 +5,6 @@ function Education() {
     return(
         <div className="education">
             <div className="container-fluid edu-container">
-                <div id="education-header" className="section-header">Education</div>
 
                 <div className="edu-item">
                     <img className="edu-img"

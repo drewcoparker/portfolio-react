@@ -7,7 +7,7 @@ class Experience extends Component {
         return(
             <div className="experience">
                 <div className="container-fluid experience-container">
-                    <div id="experience-header" className="section-header">Experience</div>
+                    
                     <div className="work-item">
                         <img className="work-img"
                              src={require("../images/digitalcrafts-logo.png")}

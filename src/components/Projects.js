@@ -7,7 +7,7 @@ class Projects extends Component {
         return(
             <div className="projects">
                 <div className="container-fluid projects-container">
-                    <div id="projects-header" className="section-header">Projects</div>
+            
                 </div>
             </div>
         )

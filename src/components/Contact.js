@@ -7,7 +7,7 @@ class Contact extends Component {
         return(
             <div className="contact">
                 <div className="container-fluid contact-container">
-                    <div id="contact-header" className="section-header">Contact</div>
+                    
                 </div>
             </div>
         )
