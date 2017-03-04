@@ -6,15 +6,15 @@ class Experience extends Component {
     render() {
         return(
             <div className="experience">
-                <div className="container work-container">
-                    <div className="section-header">Experience</div>
+                <div className="container-fluid experience-container">
+                    <div id="experience-header" className="section-header">Experience</div>
                     <div className="work-item">
                         <img className="work-img"
                              src={require("../images/digitalcrafts-logo.png")}
                              role={"presentation"} />
                         <p>Fullstack Developer in Training</p>
                         <p>Nov 2016 - Mar 2017</p>
-                        
+
                     </div>
                     <div className="work-item">
                         <img className="work-img"

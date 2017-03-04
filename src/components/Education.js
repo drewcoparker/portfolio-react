@@ -4,15 +4,9 @@ import Scroll, { Helpers } from 'react-scroll';
 function Education() {
     return(
         <div className="education">
-            <div className="container edu-container">
-                <div className="section-header">Education</div>
-                <div className="edu-item">
-                    <img className="edu-img"
-                         src={require("../images/digitalcrafts-logo.png")}
-                         role={"presentation"} />
-                    <p>Fullstack Web Development</p>
-                    <p>Graduated March 2017</p>
-                </div>
+            <div className="container-fluid edu-container">
+                <div id="education-header" className="section-header">Education</div>
+
                 <div className="edu-item">
                     <img className="edu-img"
                          src={require("../images/uga-logo.png")}

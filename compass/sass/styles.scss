@@ -158,19 +158,55 @@ body {
 //     }
 // }
 
-.experience, .education {
+.experience, .education, .projects, .contact {
     padding-top: 54px;
 }
 
-// Professional component
-.work-container, .edu-container {
-    // max-width: 800px;
-    // margin: auto;
+// The section headers
+.experience-container {
+    border-top: 5px solid #BA160C;
 }
+
+#experience-header {
+    background-color: #BA160C;
+}
+
+.edu-container  {
+    border-top: 5px solid #FFA630;
+
+}
+
+#education-header {
+    background-color: #FFA630;
+}
+
+.projects-container  {
+    border-top: 5px solid #7CA982;
+    min-height: 400px;
+}
+
+#projects-header {
+    background-color: #7CA982;
+}
+
+.contact-container  {
+    border-top: 5px solid #3993DD;
+    min-height: 800px;
+}
+
+#contact-header {
+    background-color: #3993DD;
+}
+
+
+
+
+
+
+
 
 .work-item, .edu-item {
     min-height: 400px;
-    border-top: 3px solid #BA160C;
     box-shadow: -1px 0 2px 0 rgba(0,0,0,0.12), 1px 0 2px 0 rgba(0,0,0,0.12), 0 1px 1px 0 rgba(0,0,0,0.24);
     background-color: #fff;
     padding: 50px;
@@ -187,7 +223,7 @@ body {
     }
 }
 
-.work-img {
+.work-img, .edu-img {
     display: block;
     margin: auto;
     max-width: 150px;
@@ -217,11 +253,6 @@ body {
 //     }
 // }
 
-.edu-img {
-    display: block;
-    margin: auto;
-    max-width: 150px;
-}
 
 
 
@@ -241,24 +272,19 @@ body {
 }
 
 
-
-// Contact component
-// .contact-menu {
-//     background-color: #E6EBE0;
-//     display: flex;
-//     height: 40px;
-//     text-decoration: none;
-//     flex-direction: row;
-//     justify-content: space-around;
-// }
-
 .contact-container {
-    // max-width: 50em;
-    // margin: auto;
+
 }
 
-// .card {
-//     margin: 0 15px 25px;
-//     border: 1px dashed rgba(0,0,0,0.5);
-//     height: 100px;
-// }
+.section-header {
+    // height: 50px;
+    width: 150px;
+    // text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    color: #fff;
+
+    // padding: 10px;
+    border-radius: 0 0 10px 0;
+
+}

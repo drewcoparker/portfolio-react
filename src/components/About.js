@@ -6,7 +6,7 @@ class About extends Component {
     render() {
         return(
             <div className="about">
-                <div className="container about-container">
+                <div className="container-fluid about-container">
                     <div className="about-blurb">
                         <p>
                             I&#39;m a fullstack developer in Atlanta, GA. I have 5 years

@@ -6,8 +6,8 @@ class Projects extends Component {
     render() {
         return(
             <div className="projects">
-                <div className="container projects-container">
-                    <div className="section-header">Projects</div>
+                <div className="container-fluid projects-container">
+                    <div id="projects-header" className="section-header">Projects</div>
                 </div>
             </div>
         )

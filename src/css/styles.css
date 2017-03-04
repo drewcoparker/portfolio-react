@@ -119,43 +119,86 @@ body {
 }
 
 /* line 161, ../../compass/sass/styles.scss */
-.experience, .education {
+.experience, .education, .projects, .contact {
   padding-top: 54px;
 }
 
-/* line 171, ../../compass/sass/styles.scss */
+/* line 166, ../../compass/sass/styles.scss */
+.experience-container {
+  border-top: 5px solid #BA160C;
+}
+
+/* line 170, ../../compass/sass/styles.scss */
+#experience-header {
+  background-color: #BA160C;
+}
+
+/* line 174, ../../compass/sass/styles.scss */
+.edu-container {
+  border-top: 5px solid #FFA630;
+}
+
+/* line 179, ../../compass/sass/styles.scss */
+#education-header {
+  background-color: #FFA630;
+}
+
+/* line 183, ../../compass/sass/styles.scss */
+.projects-container {
+  border-top: 5px solid #7CA982;
+  min-height: 400px;
+}
+
+/* line 188, ../../compass/sass/styles.scss */
+#projects-header {
+  background-color: #7CA982;
+}
+
+/* line 192, ../../compass/sass/styles.scss */
+.contact-container {
+  border-top: 5px solid #3993DD;
+  min-height: 800px;
+}
+
+/* line 197, ../../compass/sass/styles.scss */
+#contact-header {
+  background-color: #3993DD;
+}
+
+/* line 208, ../../compass/sass/styles.scss */
 .work-item, .edu-item {
   min-height: 400px;
-  border-top: 3px solid #BA160C;
   box-shadow: -1px 0 2px 0 rgba(0, 0, 0, 0.12), 1px 0 2px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);
   background-color: #fff;
   padding: 50px;
   margin: 20px auto;
 }
-/* line 178, ../../compass/sass/styles.scss */
+/* line 214, ../../compass/sass/styles.scss */
 .work-item p, .edu-item p {
   padding: 5px;
   text-align: center;
 }
-/* line 182, ../../compass/sass/styles.scss */
+/* line 218, ../../compass/sass/styles.scss */
 .work-item ul, .edu-item ul {
   list-style: square;
 }
-/* line 185, ../../compass/sass/styles.scss */
+/* line 221, ../../compass/sass/styles.scss */
 .work-item li, .edu-item li {
   padding: 5px 0;
 }
 
-/* line 190, ../../compass/sass/styles.scss */
-.work-img {
+/* line 226, ../../compass/sass/styles.scss */
+.work-img, .edu-img {
   display: block;
   margin: auto;
   max-width: 150px;
 }
 
-/* line 220, ../../compass/sass/styles.scss */
-.edu-img {
-  display: block;
-  margin: auto;
-  max-width: 150px;
+/* line 279, ../../compass/sass/styles.scss */
+.section-header {
+  width: 150px;
+  line-height: 25px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 0 0 10px 0;
 }
