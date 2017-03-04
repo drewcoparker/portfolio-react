@@ -11,6 +11,7 @@ body {
 /* line 15, ../../compass/sass/styles.scss */
 .header {
   position: fixed;
+  top: 0;
   width: 100%;
   font-size: 20px;
   color: #000;
@@ -18,17 +19,17 @@ body {
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* line 33, ../../compass/sass/styles.scss */
+/* line 34, ../../compass/sass/styles.scss */
 .header-brand {
   position: absolute;
 }
-/* line 35, ../../compass/sass/styles.scss */
+/* line 36, ../../compass/sass/styles.scss */
 .header-brand a {
   text-decoration: none;
   color: #000;
 }
 
-/* line 41, ../../compass/sass/styles.scss */
+/* line 42, ../../compass/sass/styles.scss */
 .header-menu-items {
   font-size: 14px;
   display: flex;
@@ -36,49 +37,41 @@ body {
   justify-content: center;
 }
 
-/* line 48, ../../compass/sass/styles.scss */
+/* line 49, ../../compass/sass/styles.scss */
 .menu-item {
   padding: 20px 20px;
 }
-/* line 50, ../../compass/sass/styles.scss */
+/* line 51, ../../compass/sass/styles.scss */
 .menu-item a {
   text-decoration: none;
   color: #000;
 }
 
-/* line 63, ../../compass/sass/styles.scss */
-.home-menu {
-  background-color: #E6EBE0;
-  display: flex;
-  height: 40px;
-  text-decoration: none;
-  flex-direction: row;
-  justify-content: space-around;
+/* line 73, ../../compass/sass/styles.scss */
+.home {
+  padding-top: 54px;
 }
 
-/* line 73, ../../compass/sass/styles.scss */
+/* line 77, ../../compass/sass/styles.scss */
 .home-container {
   height: 600px;
-  display: flex;
-  justify-content: center;
   background: url("../images/pct.jpg") no-repeat center;
   background-size: cover;
   font-size: 70px;
   color: #fff;
 }
 
-/* line 83, ../../compass/sass/styles.scss */
+/* line 87, ../../compass/sass/styles.scss */
 .home-text {
-  margin-top: 80px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
-/* line 88, ../../compass/sass/styles.scss */
+/* line 92, ../../compass/sass/styles.scss */
 .pusher {
   height: 100px;
 }
 
-/* line 93, ../../compass/sass/styles.scss */
+/* line 97, ../../compass/sass/styles.scss */
 .about-menu {
   background-color: #E6EBE0;
   display: flex;
@@ -88,7 +81,7 @@ body {
   justify-content: space-around;
 }
 
-/* line 102, ../../compass/sass/styles.scss */
+/* line 106, ../../compass/sass/styles.scss */
 .about-container {
   margin: auto;
   max-width: 500px;
@@ -96,12 +89,12 @@ body {
   padding: 50px;
 }
 
-/* line 109, ../../compass/sass/styles.scss */
+/* line 113, ../../compass/sass/styles.scss */
 .skills {
   margin-top: 80px;
 }
 
-/* line 113, ../../compass/sass/styles.scss */
+/* line 117, ../../compass/sass/styles.scss */
 .skills-container {
   display: flex;
   text-decoration: none;
@@ -109,51 +102,28 @@ body {
   justify-content: space-around;
 }
 
-/* line 120, ../../compass/sass/styles.scss */
+/* line 124, ../../compass/sass/styles.scss */
 #skills-title {
   margin: 20px;
   text-align: center;
 }
 
-/* line 125, ../../compass/sass/styles.scss */
+/* line 129, ../../compass/sass/styles.scss */
 .skills-1 div {
   padding: 3px;
 }
 
-/* line 129, ../../compass/sass/styles.scss */
+/* line 133, ../../compass/sass/styles.scss */
 .skills-2 div {
   padding: 3px;
 }
 
-/* line 138, ../../compass/sass/styles.scss */
-.experience-menu {
-  background-color: #E6EBE0;
-  display: flex;
-  height: 40px;
-  text-decoration: none;
-  flex-direction: row;
-  justify-content: space-around;
+/* line 161, ../../compass/sass/styles.scss */
+.experience, .education {
+  padding-top: 54px;
 }
 
-/* line 147, ../../compass/sass/styles.scss */
-.experience-menu-item {
-  max-width: 20em;
-  margin: auto;
-  padding: 10px;
-}
-/* line 151, ../../compass/sass/styles.scss */
-.experience-menu-item a {
-  text-decoration: none;
-  color: #000;
-}
-
-/* line 159, ../../compass/sass/styles.scss */
-.work-container, .edu-container {
-  max-width: 800px;
-  margin: auto;
-}
-
-/* line 164, ../../compass/sass/styles.scss */
+/* line 171, ../../compass/sass/styles.scss */
 .work-item, .edu-item {
   min-height: 400px;
   border-top: 3px solid #BA160C;
@@ -162,69 +132,30 @@ body {
   padding: 50px;
   margin: 20px auto;
 }
-/* line 171, ../../compass/sass/styles.scss */
+/* line 178, ../../compass/sass/styles.scss */
 .work-item p, .edu-item p {
   padding: 5px;
   text-align: center;
 }
-/* line 175, ../../compass/sass/styles.scss */
+/* line 182, ../../compass/sass/styles.scss */
 .work-item ul, .edu-item ul {
   list-style: square;
 }
-/* line 178, ../../compass/sass/styles.scss */
+/* line 185, ../../compass/sass/styles.scss */
 .work-item li, .edu-item li {
   padding: 5px 0;
 }
 
-/* line 183, ../../compass/sass/styles.scss */
+/* line 190, ../../compass/sass/styles.scss */
 .work-img {
   display: block;
   margin: auto;
   max-width: 150px;
 }
 
-/* line 213, ../../compass/sass/styles.scss */
+/* line 220, ../../compass/sass/styles.scss */
 .edu-img {
   display: block;
   margin: auto;
   max-width: 150px;
-}
-
-/* line 222, ../../compass/sass/styles.scss */
-.projects-menu {
-  background-color: #E6EBE0;
-  display: flex;
-  height: 40px;
-  text-decoration: none;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-/* line 231, ../../compass/sass/styles.scss */
-.projects-container {
-  max-width: 50em;
-  margin: auto;
-}
-
-/* line 239, ../../compass/sass/styles.scss */
-.contact-menu {
-  background-color: #E6EBE0;
-  display: flex;
-  height: 40px;
-  text-decoration: none;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-/* line 248, ../../compass/sass/styles.scss */
-.contact-container {
-  max-width: 50em;
-  margin: auto;
-}
-
-/* line 253, ../../compass/sass/styles.scss */
-.card {
-  margin: 0 15px 25px;
-  border: 1px dashed rgba(0, 0, 0, 0.5);
-  height: 100px;
 }

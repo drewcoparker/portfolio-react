@@ -14,6 +14,7 @@ body {
 // Header section
 .header {
     position: fixed;
+    top: 0;
     width: 100%;
     font-size: 20px;
     // height: 80px;
@@ -60,20 +61,23 @@ body {
 
 
 // Home component
-.home-menu {
-    background-color: #E6EBE0;
-    display: flex;
-    height: 40px;
-    text-decoration: none;
-    flex-direction: row;
-    justify-content: space-around;
-}
+// .home-menu {
+//     background-color: #E6EBE0;
+//     // display: flex;
+//     height: 40px;
+//     // text-decoration: none;
+//     // flex-direction: row;
+//     // justify-content: space-around;
+// }
 
+.home {
+    padding-top: 54px;
+}
 
 .home-container {
     height: 600px;
-    display: flex;
-    justify-content: center;
+    // display: flex;
+    // justify-content: center;
     background: url('../images/pct.jpg') no-repeat center;
     background-size: cover;
     font-size: 70px;
@@ -81,7 +85,7 @@ body {
 }
 
 .home-text {
-    margin-top: 80px;
+    // margin-top: 80px;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
 }
 
@@ -135,30 +139,33 @@ body {
 
 }
 
-.experience-menu {
-    background-color: #E6EBE0;
-    display: flex;
-    height: 40px;
-    text-decoration: none;
-    flex-direction: row;
-    justify-content: space-around;
-}
+// .experience-menu {
+//     background-color: #E6EBE0;
+//     display: flex;
+//     height: 40px;
+//     text-decoration: none;
+//     flex-direction: row;
+//     justify-content: space-around;
+// }
+//
+// .experience-menu-item {
+//     max-width: 20em;
+//     margin: auto;
+//     padding: 10px;
+//     a {
+//         text-decoration: none;
+//         color: #000;
+//     }
+// }
 
-.experience-menu-item {
-    max-width: 20em;
-    margin: auto;
-    padding: 10px;
-    a {
-        text-decoration: none;
-        color: #000;
-    }
+.experience, .education {
+    padding-top: 54px;
 }
-
 
 // Professional component
 .work-container, .edu-container {
-    max-width: 800px;
-    margin: auto;
+    // max-width: 800px;
+    // margin: auto;
 }
 
 .work-item, .edu-item {
@@ -219,39 +226,39 @@ body {
 
 
 // Projects component
-.projects-menu {
-    background-color: #E6EBE0;
-    display: flex;
-    height: 40px;
-    text-decoration: none;
-    flex-direction: row;
-    justify-content: space-around;
-}
+// .projects-menu {
+//     background-color: #E6EBE0;
+//     display: flex;
+//     height: 40px;
+//     text-decoration: none;
+//     flex-direction: row;
+//     justify-content: space-around;
+// }
 
 .projects-container {
-    max-width: 50em;
-    margin: auto;
+    // max-width: 50em;
+    // margin: auto;
 }
 
 
 
 // Contact component
-.contact-menu {
-    background-color: #E6EBE0;
-    display: flex;
-    height: 40px;
-    text-decoration: none;
-    flex-direction: row;
-    justify-content: space-around;
-}
+// .contact-menu {
+//     background-color: #E6EBE0;
+//     display: flex;
+//     height: 40px;
+//     text-decoration: none;
+//     flex-direction: row;
+//     justify-content: space-around;
+// }
 
 .contact-container {
-    max-width: 50em;
-    margin: auto;
+    // max-width: 50em;
+    // margin: auto;
 }
 
-.card {
-    margin: 0 15px 25px;
-    border: 1px dashed rgba(0,0,0,0.5);
-    height: 100px;
-}
+// .card {
+//     margin: 0 15px 25px;
+//     border: 1px dashed rgba(0,0,0,0.5);
+//     height: 100px;
+// }

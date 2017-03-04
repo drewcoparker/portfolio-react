@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Header from './Header';
-
 import Home from './Home';
 import About from './About';
 import Experience from './Experience';
@@ -13,7 +12,6 @@ class App extends Component {
         return (
             <div className="App">
                 <Header />
-                <div className="pusher"></div>
                 <Home name="home"/>
                 <About name="about"/>
                 <Experience name="experience"/>

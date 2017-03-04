@@ -1,16 +1,6 @@
 import React, { Component } from 'react';
 import Scroll, { Link, DirectLink, Element, Events, animateScroll, scrollSpy } from 'react-scroll';
 
-// Import the react-scroll module
-// var Scroll = require('react-scroll');
-// var Link       = Scroll.Link;
-// var DirectLink = Scroll.DirectLink;
-// var Element    = Scroll.Element;
-// var Events     = Scroll.Events;
-// var scroll     = Scroll.animateScroll;
-// var scrollSpy  = Scroll.scrollSpy;
-
-
 class Header extends Component {
 
     componentDidMount() {

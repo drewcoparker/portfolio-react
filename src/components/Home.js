@@ -5,8 +5,7 @@ class Home extends Component {
     render(){
         return(
             <div className="home">
-                <div className="home-menu"></div>
-                <div className="home-container">
+                <div className="container-fluid home-container">
                     <div className="home-text">I&#39;m Drew Parker</div>
                 </div>
             </div>
@@ -15,3 +14,4 @@ class Home extends Component {
 }
 
 export default Helpers.Element(Home);
+// <div className="home-menu"></div>
