@@ -7,79 +7,34 @@ class Experience extends Component {
         return(
             <div className="experience">
                 <div className="container-fluid experience-container">
-                    
-                    <div className="work-item">
-                        <img className="work-img"
-                             src={require("../images/digitalcrafts-logo.png")}
-                             role={"presentation"} />
-                        <p>Fullstack Developer in Training</p>
-                        <p>Nov 2016 - Mar 2017</p>
+                    <div className="item-wrapper">
+                        <div className="work-item">
+                            <img className="work-img"
+                                 src={require("../images/digitalcrafts-logo.png")}
+                                 role={"presentation"} />
+                            <hr></hr>
+                            <div className="title">Fullstack Developer Apprentice</div>
+                            <div className="years">Nov 2016 - Mar 2017 (4 months)</div>
 
-                    </div>
-                    <div className="work-item">
-                        <img className="work-img"
-                             src={require("../images/sketchup-logo.png")}
-                             role={"presentation"} />
-                        <p>Quality Assurance Engineer</p>
-                        <p>Oct 2012 - April 2016</p>
-                        <ul>
-                            <li>
-                                Led testing efforts for the LayOut application
-                                for Mac and Windows
-                            </li>
-                            <li>
-                                Achieved mastery of white and black box testing
-                                methods
-                            </li>
-                            <li>
-                                Authored hundreds of unit tests in C++
-                            </li>
-                            <li>
-                                Opened thousands of tickets for bugs, improvements,
-                                and feature requests
-                            </li>
-                            <li>
-                                Co-developed example applications as a way of
-                                providing documentation for the LayOut C API
-                            </li>
-                            <li>
-                                Administered SketchUp&#39;s beta program and oversaw
-                                its growth to well over 500 members
-                            </li>
-                            <li>
-                                Developed an image diffing program in Ruby to
-                                assist developers while tuning LayOut&#39;s pdf
-                                exporting engine
-                            </li>
-                            <li>
-                                Participated as a mentor in SketchUp&#39;s Autism
-                                Internship Program
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="work-item">
-                        <img className="work-img"
-                             src={require("../images/intergraph-logo.png")}
-                             role={"presentation"} />
-                         <p>Quality Assurance Engineer</p>
-                        <p>Oct 2011 - Oct 2012</p>
-                        <ul>
-                            <li>
-                                Led testing efforts for Geomedia Professional
-                                within an Agile (Scrum) development environment
-                            </li>
-                            <li>
-                                Authored a corpus of GUI-level automation test
-                                cases in VBScript and HP Quality Center
-                            </li>
-                            <li>
-                                Prepared spatial databases and designed custom
-                                schemas for data ingestion testing
-                            </li>
-                            <li>
-                                Communicated ideas in monthly planning meetings
-                            </li>
-                        </ul>
+                        </div>
+                        <div className="work-item">
+                            <img className="work-img"
+                                 src={require("../images/sketchup-logo.png")}
+                                 role={"presentation"} />
+                            <hr></hr>
+                            <div className="title">Quality Assurance Engineer</div>
+                            <div className="years">Oct 2012 - April 2016 (3 years, 7 months)</div>
+
+                        </div>
+                        <div className="work-item">
+                            <img className="work-img"
+                                 src={require("../images/intergraph-logo.png")}
+                                 role={"presentation"} />
+                            <hr></hr>
+                            <div className="title">Quality Assurance Engineer</div>
+                            <div className="years">Oct 2011 - Oct 2012 (1 year)</div>
+
+                        </div>
                     </div>
                 </div>
             </div>

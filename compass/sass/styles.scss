@@ -14,6 +14,7 @@ body {
 // Header section
 .header {
     position: fixed;
+    z-index: 1000;
     top: 0;
     width: 100%;
     font-size: 20px;
@@ -162,11 +163,14 @@ body {
 
 .experience-container {
     border-top: 5px solid #BA160C;
-    background-color: rgba(186, 22, 12,0.3)
+    background-color: rgba(186, 22, 12,0.3);
+
 }
 
 #experience-header {
     background-color: #BA160C;
+
+
 }
 
 .edu-container  {
@@ -198,14 +202,21 @@ body {
     background-color: #3993DD;
 }
 
-
+.item-wrapper {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .work-item, .edu-item {
     min-height: 400px;
     box-shadow: -1px 0 2px 0 rgba(0,0,0,0.12), 1px 0 2px 0 rgba(0,0,0,0.12), 0 1px 1px 0 rgba(0,0,0,0.24);
     background-color: #fff;
     padding: 50px;
-    margin: 20px auto;
+    max-width: 500px;
+    min-width: 350px;
+    margin: 20px 10px;
     p {
         padding: 5px;
         text-align: center;
@@ -222,6 +233,21 @@ body {
     display: block;
     margin: auto;
     max-width: 150px;
+    border-bottom: rgba(0,0,0,0.12);
+}
+
+.title {
+    font-family: 'Georgia';
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.years {
+    font-family: 'Georgia';
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
 }
 
 
