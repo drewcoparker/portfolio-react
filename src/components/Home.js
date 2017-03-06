@@ -7,6 +7,7 @@ class Home extends Component {
             <div className="home">
                 <div className="container-fluid home-container">
                     <div className="home-text">I&#39;m Drew Parker</div>
+                    
                 </div>
             </div>
         )
