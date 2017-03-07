@@ -49,11 +49,20 @@ body {
 
 .menu-item{
     padding: 20px 20px;
+
+    letter-spacing: 2px;
     a {
         text-transform: uppercase;
         text-decoration: none;
         color: #fff;
     }
+    &:hover {
+            cursor: pointer;
+    }
+}
+
+.active-home {
+    border-bottom: 3px solid #fff;
 }
 
 .active-experience {
@@ -230,23 +239,28 @@ body {
 }
 
 .work-img, .edu-img {
-    display: block;
-    margin: auto;
-    max-width: 150px;
-    border-bottom: rgba(0,0,0,0.12);
+    img {
+        display: block;
+        margin: auto;
+        max-width: 150px;
+        border-bottom: rgba(0,0,0,0.12);
+    }
 }
 
 .title {
-    font-family: 'Georgia';
+    font-size: 18px;
+
+    font-family: 'Merriweather';
+    letter-spacing: .5px;
     font-weight: bold;
     text-align: center;
     padding-bottom: 5px;
 }
 
 .years {
-    font-family: 'Georgia';
+
     font-size: 14px;
-    font-style: italic;
+
     text-align: center;
 }
 

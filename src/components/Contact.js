@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Scroll, { Helpers } from 'react-scroll';
+import { Helpers } from 'react-scroll';
 
 class Contact extends Component {
 
@@ -7,7 +7,7 @@ class Contact extends Component {
         return(
             <div className="contact">
                 <div className="container-fluid contact-container">
-                    
+
                 </div>
             </div>
         )

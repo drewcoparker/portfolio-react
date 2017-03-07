@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Scroll, { Helpers } from 'react-scroll';
+import { Helpers } from 'react-scroll';
 
 class Experience extends Component {
 
@@ -9,27 +9,35 @@ class Experience extends Component {
                 <div className="container-fluid experience-container">
                     <div className="item-wrapper">
                         <div className="work-item">
-                            <img className="work-img"
-                                 src={require("../images/digitalcrafts-logo.png")}
-                                 role={"presentation"} />
+                            <div className="work-img">
+                                <img
+                                     src={require("../images/digitalcrafts-logo.png")}
+                                     role={"presentation"} />
+                            </div>
+
                             <hr></hr>
                             <div className="title">Fullstack Developer Apprentice</div>
                             <div className="years">Nov 2016 - Mar 2017 (4 months)</div>
 
                         </div>
                         <div className="work-item">
-                            <img className="work-img"
-                                 src={require("../images/sketchup-logo.png")}
-                                 role={"presentation"} />
+                            <div className="work-img">
+                                <img
+                                    src={require("../images/sketchup-logo.png")}
+                                    role={"presentation"} />
+                            </div>
                             <hr></hr>
                             <div className="title">Quality Assurance Engineer</div>
                             <div className="years">Oct 2012 - April 2016 (3 years, 7 months)</div>
 
                         </div>
                         <div className="work-item">
-                            <img className="work-img"
-                                 src={require("../images/intergraph-logo.png")}
-                                 role={"presentation"} />
+                            <div className="work-img">
+                                <img
+                                    src={require("../images/intergraph-logo.png")}
+                                    role={"presentation"} />
+                            </div>
+
                             <hr></hr>
                             <div className="title">Quality Assurance Engineer</div>
                             <div className="years">Oct 2011 - Oct 2012 (1 year)</div>

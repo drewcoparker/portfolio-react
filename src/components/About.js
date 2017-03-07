@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Scroll, { Helpers } from 'react-scroll';
+import { Helpers } from 'react-scroll';
 
 class About extends Component {
 

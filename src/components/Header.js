@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import Scroll, { Link, DirectLink, Element, Events, animateScroll, scrollSpy } from 'react-scroll';
+import { Link, DirectLink, Events, animateScroll, scrollSpy } from 'react-scroll';
 
 class Header extends Component {
 
     componentDidMount() {
         Events.scrollEvent.register('begin', (to, element) => {
-            console.log("begin", arguments);
+
         });
 
         Events.scrollEvent.register('end', (to, element) => {
-            console.log("end", arguments);
+
         });
 
         scrollSpy.update();
@@ -58,8 +58,8 @@ class Header extends Component {
                     <div className="header-menu-items">
                         <div className="menu-item">
                             <Link
-                                activeClass="active"
-                                to="about"
+                                activeClass="active-home"
+                                to="home"
                                 spy={true}
                                 smooth={true}
                                 duration={500} >
