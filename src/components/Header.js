@@ -58,7 +58,7 @@ class Header extends Component {
                     <div className="header-menu-items">
                         <div className="menu-item">
                             <Link
-                                activeClass="active-home"
+                                activeClass="active-about"
                                 to="home"
                                 spy={true}
                                 smooth={true}

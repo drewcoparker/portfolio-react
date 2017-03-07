@@ -61,8 +61,8 @@ body {
     }
 }
 
-.active-home {
-    border-bottom: 3px solid #fff;
+.active-about {
+    border-bottom: 3px solid #04A777;
 }
 
 .active-experience {
@@ -117,10 +117,10 @@ body {
 }
 
 .about-container {
-    margin: auto;
-    max-width: 500px;
-    background-color: #fff;
-    padding: 50px;
+    // margin: auto;
+    // max-width: 500px;
+    // background-color: #fff;
+    // padding: 50px;
 }
 
 .skills {
@@ -150,6 +150,7 @@ body {
 
 .experience, .education, .projects, .contact {
     padding-top: 54px;
+    // margin-bottom: 80px;
 }
 
 // The section headers
@@ -167,24 +168,31 @@ body {
 }
 
 .experience-container, .edu-container, .projects-container, .contact-container {
-    box-shadow: -1px 0 2px 0 rgba(0,0,0,0.12), 1px 0 2px 0 rgba(0,0,0,0.12), 0 1px 1px 0 rgba(0,0,0,0.24);
+    // box-shadow: -1px 0 2px 0 rgba(0,0,0,0.12), 1px 0 2px 0 rgba(0,0,0,0.12), 0 1px 1px 0 rgba(0,0,0,0.24);
+}
+
+.about-container {
+    border-top: 5px solid #000;
+    background-color: rgba(0, 0, 0,0.1);
+}
+
+#about-header {
+    background-color: #BA160C;
 }
 
 .experience-container {
     border-top: 5px solid #BA160C;
-    background-color: rgba(186, 22, 12,0.3);
-
+    background-color: rgba(186, 22, 12,0.1);
 }
 
 #experience-header {
     background-color: #BA160C;
-
-
 }
 
 .edu-container  {
     border-top: 5px solid #FFA630;
-    background-color: rgba(255,166,48,0.3)
+    background-color: rgba(255,166,48,0.1);
+
 }
 
 #education-header {
@@ -194,7 +202,7 @@ body {
 .projects-container  {
     border-top: 5px solid #7CA982;
     min-height: 400px;
-    background-color: rgba(124,169,130,0.3)
+    background-color: rgba(124,169,130,0.1)
 }
 
 #projects-header {
@@ -204,7 +212,7 @@ body {
 .contact-container  {
     border-top: 5px solid #3993DD;
     min-height: 800px;
-    background-color: rgba(57,147,221,0.3)
+    background-color: rgba(57,147,221,0.1)
 }
 
 #contact-header {
@@ -212,10 +220,10 @@ body {
 }
 
 .item-wrapper {
-    max-width: 1000px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
+    // max-width: 1000px;
+    // margin: auto;
+    // display: flex;
+    // flex-wrap: wrap;
 }
 
 .work-item, .edu-item {
@@ -223,8 +231,8 @@ body {
     box-shadow: -1px 0 2px 0 rgba(0,0,0,0.12), 1px 0 2px 0 rgba(0,0,0,0.12), 0 1px 1px 0 rgba(0,0,0,0.24);
     background-color: #fff;
     padding: 50px;
-    max-width: 500px;
-    min-width: 350px;
+    // max-width: 500px;
+    // min-width: 350px;
     margin: 20px 10px;
     p {
         padding: 5px;
@@ -249,7 +257,6 @@ body {
 
 .title {
     font-size: 18px;
-
     font-family: 'Merriweather';
     letter-spacing: .5px;
     font-weight: bold;
@@ -258,9 +265,7 @@ body {
 }
 
 .years {
-
     font-size: 14px;
-
     text-align: center;
 }
 
