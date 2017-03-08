@@ -9,7 +9,7 @@ class Experience extends Component {
                 <div className="container-fluid experience-container">
                     <div className="container item-wrapper">
                         <div className="row">
-                            <div className="work-item">
+                            <div id="digitalcrafts" className="work-item">
                                 <div className="work-img">
                                     <img
                                         src={require("../images/scaled_digitalcrafts_logo.png")}
@@ -21,7 +21,7 @@ class Experience extends Component {
                                 <div className="years">Nov 2016 - Mar 2017 (4 months)</div>
                             </div>
 
-                            <div className="work-item">
+                            <div id="sketchup" className="work-item">
                                 <div className="work-img">
                                     <img
                                         src={require("../images/scaled_sketchup_logo.png")}
@@ -33,7 +33,7 @@ class Experience extends Component {
                                 <div className="years">Oct 2012 - April 2016 (3 years, 7 months)</div>
                             </div>
 
-                            <div className="work-item">
+                            <div id="intergraph" className="work-item">
                                 <div className="work-img">
                                     <img
                                         src={require("../images/scaled_intergraph_logo.png")}

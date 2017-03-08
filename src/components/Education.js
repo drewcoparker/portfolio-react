@@ -7,7 +7,7 @@ function Education() {
             <div className="container-fluid edu-container">
                 <div className="container item-wrapper">
                     <div className="row">
-                        <div className="edu-item">
+                        <div id="masters" className="edu-item">
                             <div className="edu-img">
                                 <img
                                     src={require("../images/uga-logo.png")}
@@ -19,7 +19,7 @@ function Education() {
                             <div className="years">Graduated August 2011</div>
                         </div>
 
-                        <div className="edu-item">
+                        <div id="bachelors" className="edu-item">
                             <div className="edu-img">
                                 <img
                                     src={require("../images/uga-logo.png")}
