@@ -254,6 +254,7 @@ body {
 }
 
 .work-img, .edu-img {
+    // margin-bottom: 25px;
     img {
         display: block;
         margin: auto;
@@ -274,8 +275,17 @@ body {
 .years {
     font-size: 14px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
+.resume-wrapper {
+    // border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+.resume-item {
+    font-size: 14px;
+    padding: 10px;
+}
 
 .projects-container {
     // max-width: 50em;

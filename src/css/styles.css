@@ -245,7 +245,7 @@ body {
   background-color: #fff;
 }
 
-/* line 257, ../../compass/sass/styles.scss */
+/* line 258, ../../compass/sass/styles.scss */
 .work-img img, .edu-img img {
   display: block;
   margin: auto;
@@ -253,7 +253,7 @@ body {
   border-bottom: rgba(0, 0, 0, 0.12);
 }
 
-/* line 265, ../../compass/sass/styles.scss */
+/* line 266, ../../compass/sass/styles.scss */
 .title {
   font-size: 18px;
   font-family: 'Merriweather';
@@ -263,8 +263,15 @@ body {
   padding-bottom: 5px;
 }
 
-/* line 274, ../../compass/sass/styles.scss */
+/* line 275, ../../compass/sass/styles.scss */
 .years {
   font-size: 14px;
   text-align: center;
+  margin-bottom: 20px;
+}
+
+/* line 285, ../../compass/sass/styles.scss */
+.resume-item {
+  font-size: 14px;
+  padding: 10px;
 }
