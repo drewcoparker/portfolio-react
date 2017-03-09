@@ -16,7 +16,7 @@ class Experience extends Component {
                                         role={"presentation"}
                                     />
                                 </div>
-                                <hr></hr>
+
                                 <div className="title">Apprentice Fullstack Web Developer</div>
                                 <div className="years">Nov 2016 - Mar 2017 (4 months)</div>
                                 <hr></hr>
@@ -53,7 +53,7 @@ class Experience extends Component {
                                         role={"presentation"}
                                     />
                                 </div>
-                                <hr></hr>
+
                                 <div className="title">Quality Assurance Engineer</div>
                                 <div className="years">Oct 2012 - April 2016 (3 years, 7 months)</div>
                                 <hr></hr>
@@ -93,7 +93,7 @@ class Experience extends Component {
                                         role={"presentation"}
                                     />
                                 </div>
-                                <hr></hr>
+                                
                                 <div className="title">Quality Assurance Engineer</div>
                                 <div className="years">Oct 2011 - Oct 2012 (1 year)</div>
                                 <hr></hr>

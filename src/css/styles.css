@@ -3,12 +3,12 @@ body {
   background-color: #f7f7f7;
 }
 
-/* line 6, ../../compass/sass/styles.scss */
+/* line 7, ../../compass/sass/styles.scss */
 .App {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 15, ../../compass/sass/styles.scss */
+/* line 16, ../../compass/sass/styles.scss */
 .header {
   position: fixed;
   z-index: 1000;
@@ -20,17 +20,17 @@ body {
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* line 35, ../../compass/sass/styles.scss */
+/* line 36, ../../compass/sass/styles.scss */
 .header-brand {
   position: absolute;
 }
-/* line 37, ../../compass/sass/styles.scss */
+/* line 38, ../../compass/sass/styles.scss */
 .header-brand a {
   text-decoration: none;
   color: #000;
 }
 
-/* line 43, ../../compass/sass/styles.scss */
+/* line 44, ../../compass/sass/styles.scss */
 .header-menu-items {
   font-size: 14px;
   display: flex;
@@ -38,53 +38,53 @@ body {
   justify-content: center;
 }
 
-/* line 50, ../../compass/sass/styles.scss */
+/* line 51, ../../compass/sass/styles.scss */
 .menu-item {
   padding: 20px 20px;
   letter-spacing: 2px;
 }
-/* line 54, ../../compass/sass/styles.scss */
+/* line 55, ../../compass/sass/styles.scss */
 .menu-item a {
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
 }
-/* line 59, ../../compass/sass/styles.scss */
+/* line 60, ../../compass/sass/styles.scss */
 .menu-item:hover {
   cursor: pointer;
 }
 
-/* line 64, ../../compass/sass/styles.scss */
+/* line 65, ../../compass/sass/styles.scss */
 .active-about {
   border-bottom: 3px solid #04A777;
 }
 
-/* line 68, ../../compass/sass/styles.scss */
+/* line 69, ../../compass/sass/styles.scss */
 .active-experience {
   border-bottom: 3px solid #BA160C;
 }
 
-/* line 72, ../../compass/sass/styles.scss */
+/* line 73, ../../compass/sass/styles.scss */
 .active-education {
   border-bottom: 3px solid #FFA630;
 }
 
-/* line 76, ../../compass/sass/styles.scss */
+/* line 77, ../../compass/sass/styles.scss */
 .active-projects {
   border-bottom: 3px solid #7CA982;
 }
 
-/* line 80, ../../compass/sass/styles.scss */
+/* line 81, ../../compass/sass/styles.scss */
 .active-contact {
   border-bottom: 3px solid #3993DD;
 }
 
-/* line 86, ../../compass/sass/styles.scss */
+/* line 87, ../../compass/sass/styles.scss */
 .home {
   padding-top: 54px;
 }
 
-/* line 90, ../../compass/sass/styles.scss */
+/* line 91, ../../compass/sass/styles.scss */
 .home-container {
   height: 600px;
   background: url("../images/pct.jpg") no-repeat center;
@@ -93,17 +93,17 @@ body {
   color: #fff;
 }
 
-/* line 100, ../../compass/sass/styles.scss */
+/* line 101, ../../compass/sass/styles.scss */
 .home-text {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
-/* line 105, ../../compass/sass/styles.scss */
+/* line 106, ../../compass/sass/styles.scss */
 .pusher {
   height: 100px;
 }
 
-/* line 110, ../../compass/sass/styles.scss */
+/* line 111, ../../compass/sass/styles.scss */
 .about-menu {
   background-color: #E6EBE0;
   display: flex;
@@ -113,12 +113,12 @@ body {
   justify-content: space-around;
 }
 
-/* line 126, ../../compass/sass/styles.scss */
+/* line 127, ../../compass/sass/styles.scss */
 .skills {
   margin-top: 80px;
 }
 
-/* line 130, ../../compass/sass/styles.scss */
+/* line 131, ../../compass/sass/styles.scss */
 .skills-container {
   display: flex;
   text-decoration: none;
@@ -126,28 +126,28 @@ body {
   justify-content: space-around;
 }
 
-/* line 137, ../../compass/sass/styles.scss */
+/* line 138, ../../compass/sass/styles.scss */
 #skills-title {
   margin: 20px;
   text-align: center;
 }
 
-/* line 142, ../../compass/sass/styles.scss */
+/* line 143, ../../compass/sass/styles.scss */
 .skills-1 div {
   padding: 3px;
 }
 
-/* line 146, ../../compass/sass/styles.scss */
+/* line 147, ../../compass/sass/styles.scss */
 .skills-2 div {
   padding: 3px;
 }
 
-/* line 151, ../../compass/sass/styles.scss */
+/* line 152, ../../compass/sass/styles.scss */
 .experience, .education, .projects, .contact {
   padding-top: 54px;
 }
 
-/* line 157, ../../compass/sass/styles.scss */
+/* line 158, ../../compass/sass/styles.scss */
 .section-header {
   width: 150px;
   text-align: center;
@@ -158,64 +158,64 @@ body {
   border-radius: 0 0 5px 5px;
 }
 
-/* line 174, ../../compass/sass/styles.scss */
+/* line 175, ../../compass/sass/styles.scss */
 .about-container {
   border-top: 5px solid #000;
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* line 179, ../../compass/sass/styles.scss */
+/* line 180, ../../compass/sass/styles.scss */
 #about-header {
   background-color: #BA160C;
 }
 
-/* line 183, ../../compass/sass/styles.scss */
+/* line 184, ../../compass/sass/styles.scss */
 .experience-container {
   border-top: 5px solid #BA160C;
-  background-color: rgba(186, 22, 12, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* line 188, ../../compass/sass/styles.scss */
+/* line 190, ../../compass/sass/styles.scss */
 #experience-header {
   background-color: #BA160C;
 }
 
-/* line 192, ../../compass/sass/styles.scss */
+/* line 194, ../../compass/sass/styles.scss */
 .edu-container {
   border-top: 5px solid #FFA630;
-  background-color: rgba(255, 166, 48, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* line 198, ../../compass/sass/styles.scss */
+/* line 201, ../../compass/sass/styles.scss */
 #education-header {
   background-color: #FFA630;
 }
 
-/* line 202, ../../compass/sass/styles.scss */
+/* line 205, ../../compass/sass/styles.scss */
 .projects-container {
   border-top: 5px solid #7CA982;
   min-height: 400px;
-  background-color: rgba(124, 169, 130, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* line 208, ../../compass/sass/styles.scss */
+/* line 212, ../../compass/sass/styles.scss */
 #projects-header {
   background-color: #7CA982;
 }
 
-/* line 212, ../../compass/sass/styles.scss */
+/* line 216, ../../compass/sass/styles.scss */
 .contact-container {
   border-top: 5px solid #3993DD;
   min-height: 800px;
-  background-color: rgba(57, 147, 221, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* line 218, ../../compass/sass/styles.scss */
+/* line 223, ../../compass/sass/styles.scss */
 #contact-header {
   background-color: #3993DD;
 }
 
-/* line 229, ../../compass/sass/styles.scss */
+/* line 234, ../../compass/sass/styles.scss */
 .work-item, .edu-item {
   min-height: 400px;
   max-width: 900px;
@@ -224,28 +224,32 @@ body {
   padding: 50px;
   margin: 20px auto;
 }
-/* line 238, ../../compass/sass/styles.scss */
+/* line 243, ../../compass/sass/styles.scss */
 .work-item p, .edu-item p {
   padding: 5px;
   text-align: center;
 }
-/* line 242, ../../compass/sass/styles.scss */
+/* line 247, ../../compass/sass/styles.scss */
 .work-item ul, .edu-item ul {
   list-style: square;
 }
-/* line 245, ../../compass/sass/styles.scss */
+/* line 250, ../../compass/sass/styles.scss */
 .work-item li, .edu-item li {
   padding: 5px 0;
 }
 
-/* line 250, ../../compass/sass/styles.scss */
+/* line 255, ../../compass/sass/styles.scss */
 .project-item {
   min-height: 400px;
   box-shadow: -1px 0 2px 0 rgba(0, 0, 0, 0.12), 1px 0 2px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);
   background-color: #fff;
 }
 
-/* line 258, ../../compass/sass/styles.scss */
+/* line 261, ../../compass/sass/styles.scss */
+.work-img, .edu-img {
+  margin-bottom: 15px;
+}
+/* line 263, ../../compass/sass/styles.scss */
 .work-img img, .edu-img img {
   display: block;
   margin: auto;
@@ -253,7 +257,7 @@ body {
   border-bottom: rgba(0, 0, 0, 0.12);
 }
 
-/* line 266, ../../compass/sass/styles.scss */
+/* line 271, ../../compass/sass/styles.scss */
 .title {
   font-size: 18px;
   font-family: 'Merriweather';
@@ -263,14 +267,14 @@ body {
   padding-bottom: 5px;
 }
 
-/* line 275, ../../compass/sass/styles.scss */
+/* line 280, ../../compass/sass/styles.scss */
 .years {
   font-size: 14px;
   text-align: center;
   margin-bottom: 20px;
 }
 
-/* line 285, ../../compass/sass/styles.scss */
+/* line 290, ../../compass/sass/styles.scss */
 .resume-item {
   font-size: 14px;
   padding: 10px;
