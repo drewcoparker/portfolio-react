@@ -93,7 +93,7 @@ class Experience extends Component {
                                         role={"presentation"}
                                     />
                                 </div>
-                                
+
                                 <div className="title">Quality Assurance Engineer</div>
                                 <div className="years">Oct 2011 - Oct 2012 (1 year)</div>
                                 <hr></hr>
@@ -131,35 +131,3 @@ class Experience extends Component {
 }
 
 export default Helpers.Element(Experience);
-
-
-// <div className="experience-container">
-//
-//     <div className="experience-menu">
-//         <div className="experience-menu-item">
-//             <Link to="/experience/professional"
-//                 activeStyle={{color: '#DA3935'}}>Professional</Link>
-//         </div>
-//         <div className="experience-menu-item">
-//             <Link to="/experience/education"
-//                 activeStyle={{color: '#DA3935'}}>Education</Link>
-//         </div>
-//     </div>
-//     {this.props.children}
-// </div>
-// <ul>
-//     <li>
-//         Mastering frontend design and development
-//         principles using HTML5, CSS3, and Javascript,
-//         JQuery, React.js, and Bootstrap.css
-//     </li>
-//     <li>
-//         Daily participation at pair-programming,
-//         algorithm development, and code integration
-//     </li>
-//     <li>
-//         Backend technologies including Apache Servers,
-//         SQL and NoSQL databases, Node.js, Python, and
-//         Express
-//     </li>
-// </ul>

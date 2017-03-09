@@ -13,18 +13,3 @@ ReactDOM.render(
     <App />,
     document.getElementById('root')
 );
-
-
-// ReactDOM.render(
-//     <Router history={hashHistory}>
-//         <Route path="/" component={App} >
-//             <IndexRoute component={Home} />
-//             <Route path="/about-me" component={About} />
-//             <Route path="/experience" component={Experience} />
-//             <Route path="/education" component={Education} />
-//             <Route path="/projects" component={Projects} />
-//             <Route path="/contact" component={Contact} />
-//         </Route>
-//     </Router>,
-//     document.getElementById('root')
-// );

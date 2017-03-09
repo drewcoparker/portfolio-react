@@ -1,6 +1,6 @@
 /* line 2, ../../compass/sass/styles.scss */
 body {
-  background-color: #f7f7f7;
+  background-color: #DFDFDF;
 }
 
 /* line 7, ../../compass/sass/styles.scss */
@@ -160,8 +160,7 @@ body {
 
 /* line 175, ../../compass/sass/styles.scss */
 .about-container {
-  border-top: 5px solid #000;
-  background-color: rgba(0, 0, 0, 0.1);
+  border-top: 6px solid #000;
 }
 
 /* line 180, ../../compass/sass/styles.scss */
@@ -171,8 +170,7 @@ body {
 
 /* line 184, ../../compass/sass/styles.scss */
 .experience-container {
-  border-top: 5px solid #BA160C;
-  background-color: rgba(0, 0, 0, 0.1);
+  border-top: 6px solid #BA160C;
 }
 
 /* line 190, ../../compass/sass/styles.scss */
@@ -182,8 +180,7 @@ body {
 
 /* line 194, ../../compass/sass/styles.scss */
 .edu-container {
-  border-top: 5px solid #FFA630;
-  background-color: rgba(0, 0, 0, 0.1);
+  border-top: 6px solid #FFA630;
 }
 
 /* line 201, ../../compass/sass/styles.scss */
@@ -193,9 +190,8 @@ body {
 
 /* line 205, ../../compass/sass/styles.scss */
 .projects-container {
-  border-top: 5px solid #7CA982;
+  border-top: 6px solid #7CA982;
   min-height: 400px;
-  background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* line 212, ../../compass/sass/styles.scss */
@@ -205,9 +201,8 @@ body {
 
 /* line 216, ../../compass/sass/styles.scss */
 .contact-container {
-  border-top: 5px solid #3993DD;
+  border-top: 6px solid #3993DD;
   min-height: 800px;
-  background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* line 223, ../../compass/sass/styles.scss */
@@ -275,7 +270,11 @@ body {
 }
 
 /* line 290, ../../compass/sass/styles.scss */
-.resume-item {
+.resume-item, .honors-item {
   font-size: 14px;
   padding: 10px;
+}
+/* line 293, ../../compass/sass/styles.scss */
+.resume-item span, .honors-item span {
+  font-style: italic;
 }
