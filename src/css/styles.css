@@ -210,41 +210,45 @@ body {
   background-color: #3993DD;
 }
 
-/* line 234, ../../compass/sass/styles.scss */
+/* line 227, ../../compass/sass/styles.scss */
+.item-wrapper {
+  max-width: 900px;
+}
+
+/* line 231, ../../compass/sass/styles.scss */
 .work-item, .edu-item {
   min-height: 400px;
-  max-width: 900px;
   box-shadow: -1px 0 2px 0 rgba(0, 0, 0, 0.12), 1px 0 2px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);
   background-color: #fff;
   padding: 50px;
   margin: 20px auto;
 }
-/* line 243, ../../compass/sass/styles.scss */
+/* line 237, ../../compass/sass/styles.scss */
 .work-item p, .edu-item p {
   padding: 5px;
   text-align: center;
 }
-/* line 247, ../../compass/sass/styles.scss */
+/* line 241, ../../compass/sass/styles.scss */
 .work-item ul, .edu-item ul {
   list-style: square;
 }
-/* line 250, ../../compass/sass/styles.scss */
+/* line 244, ../../compass/sass/styles.scss */
 .work-item li, .edu-item li {
   padding: 5px 0;
 }
 
-/* line 255, ../../compass/sass/styles.scss */
+/* line 253, ../../compass/sass/styles.scss */
 .project-item {
   min-height: 400px;
   box-shadow: -1px 0 2px 0 rgba(0, 0, 0, 0.12), 1px 0 2px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);
   background-color: #fff;
 }
 
-/* line 261, ../../compass/sass/styles.scss */
+/* line 259, ../../compass/sass/styles.scss */
 .work-img, .edu-img {
   margin-bottom: 15px;
 }
-/* line 263, ../../compass/sass/styles.scss */
+/* line 261, ../../compass/sass/styles.scss */
 .work-img img, .edu-img img {
   display: block;
   margin: auto;
@@ -252,7 +256,7 @@ body {
   border-bottom: rgba(0, 0, 0, 0.12);
 }
 
-/* line 271, ../../compass/sass/styles.scss */
+/* line 269, ../../compass/sass/styles.scss */
 .title {
   font-size: 18px;
   font-family: 'Merriweather';
@@ -262,19 +266,28 @@ body {
   padding-bottom: 5px;
 }
 
-/* line 280, ../../compass/sass/styles.scss */
+/* line 278, ../../compass/sass/styles.scss */
 .years {
   font-size: 14px;
   text-align: center;
   margin-bottom: 20px;
 }
 
+/* line 288, ../../compass/sass/styles.scss */
+.skills-wrapper {
+  font-size: 14px;
+}
 /* line 290, ../../compass/sass/styles.scss */
+.skills-wrapper ul {
+  list-style: circle;
+}
+
+/* line 295, ../../compass/sass/styles.scss */
 .resume-item, .honors-item {
   font-size: 14px;
   padding: 10px;
 }
-/* line 293, ../../compass/sass/styles.scss */
+/* line 298, ../../compass/sass/styles.scss */
 .resume-item span, .honors-item span {
   font-style: italic;
 }

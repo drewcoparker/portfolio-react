@@ -21,7 +21,7 @@ class Experience extends Component {
                                 <div className="years">Nov 2016 - Mar 2017 (4 months)</div>
                                 <hr></hr>
                                 <div className="row">
-                                    <div className="col-xs-12 col-sm-6 resume-wrapper">
+                                    <div className="hidden-xs col-sm-6 resume-wrapper">
                                         <div className="resume-item">
                                             Produce fullstack web applications with React/Redux
                                             on the frontend and Express/Node.js with MySql or
@@ -43,6 +43,22 @@ class Experience extends Component {
                                             Integration using Git/GitHub
                                         </div>
                                     </div>
+                                    <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
+                                        <ul>
+                                            <li>MERN stack</li>
+                                            <li>ES6 Javascript</li>
+                                            <li>React with Redux</li>
+                                            <li>Express.js</li>
+                                            <li>NPM</li>
+                                            <li>jQuery</li>
+                                            <li>Bootstrap.css</li>
+                                            <li>Python</li>
+                                            <li>Sass</li>
+                                            <li>MySql</li>
+                                            <li>Jasmine</li>
+                                            <li>Google Maps and Mapbox APIs</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
 
@@ -58,7 +74,7 @@ class Experience extends Component {
                                 <div className="years">Oct 2012 - April 2016 (3 years, 7 months)</div>
                                 <hr></hr>
                                 <div className="row">
-                                    <div className="col-xs-12 col-sm-6 resume-wrapper">
+                                    <div className="hidden-xs col-sm-6 resume-wrapper">
                                         <div className="resume-item">
                                             Led testing efforts for the LayOut
                                             application for Mac and Windows in a
@@ -82,6 +98,22 @@ class Experience extends Component {
                                             Ruby and RMagick to assist developers
                                             while tuning LayOut’s pdf exporting engine.
                                         </div>
+                                    </div>
+                                    <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
+                                        <ul>
+                                            <li>Ruby</li>
+                                            <li>MacOs</li>
+                                            <li>Jira</li>
+                                            <li>Sikuli (automation by computer vision)</li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -119,6 +151,22 @@ class Experience extends Component {
                                             monthly planning meetings. Presented
                                             results in Sprint-ending retrospectives.
                                         </div>
+                                    </div>
+                                    <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
+                                        <ul>
+                                            <li>MERN stack</li>
+                                            <li>ES6 Javascript</li>
+                                            <li>React with Redux</li>
+                                            <li>Express.js</li>
+                                            <li>NPM</li>
+                                            <li>jQuery</li>
+                                            <li>Bootstrap.css</li>
+                                            <li>Python</li>
+                                            <li>Sass</li>
+                                            <li>MySql</li>
+                                            <li>Jasmine</li>
+                                            <li>Google Maps and Mapbox APIs</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>

@@ -225,20 +225,14 @@ body {
 }
 
 .item-wrapper {
-    // max-width: 1000px;
-    // margin: auto;
-    // display: flex;
-    // flex-wrap: wrap;
+    max-width: 900px;
 }
 
 .work-item, .edu-item {
     min-height: 400px;
-    max-width: 900px;
     box-shadow: -1px 0 2px 0 rgba(0,0,0,0.12), 1px 0 2px 0 rgba(0,0,0,0.12), 0 1px 1px 0 rgba(0,0,0,0.24);
     background-color: #fff;
     padding: 50px;
-    // max-width: 500px;
-    // min-width: 350px;
     margin: 20px auto;
     p {
         padding: 5px;
@@ -250,6 +244,10 @@ body {
     li {
         padding: 5px 0;
     }
+}
+
+.edu-item {
+
 }
 
 .project-item {
@@ -285,6 +283,13 @@ body {
 
 .resume-wrapper {
     // border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+.skills-wrapper {
+    font-size: 14px;
+    ul {
+        list-style: circle;
+    }
 }
 
 .resume-item, .honors-item {
