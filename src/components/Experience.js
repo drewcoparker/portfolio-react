@@ -6,6 +6,9 @@ class Experience extends Component {
     render() {
         return(
             <div className="experience">
+                <div style={{backgroundColor: `#BA160C`, width: `100%`, height: `5px`}}></div>
+                <div style={{backgroundColor: `#C64038`, width: `100%`, height: `5px`}}></div>
+                <div style={{backgroundColor: `#D36A64`, width: `100%`, height: `5px`}}></div>
                 <div className="container-fluid experience-container">
                     <div className="container item-wrapper">
                         <div className="row">
@@ -21,7 +24,7 @@ class Experience extends Component {
                                 <div className="years">Nov 2016 - Mar 2017 (4 months)</div>
                                 <hr></hr>
                                 <div className="row">
-                                    <div className="hidden-xs col-sm-6 resume-wrapper">
+                                    <div className="col-xs-12 col-sm-6 resume-wrapper">
                                         <div className="resume-item">
                                             Produce fullstack web applications with React/Redux
                                             on the frontend and Express/Node.js with MySql or
@@ -105,7 +108,7 @@ class Experience extends Component {
                                             <li>MacOs</li>
                                             <li>Jira</li>
                                             <li>Sikuli (automation by computer vision)</li>
-                                            <li></li>
+                                            <li>Unit tests</li>
                                             <li></li>
                                             <li></li>
                                             <li></li>

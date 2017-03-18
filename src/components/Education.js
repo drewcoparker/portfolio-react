@@ -4,10 +4,13 @@ import { Helpers } from 'react-scroll';
 function Education() {
     return(
         <div className="education">
+            <div style={{backgroundColor: `#FFA630`, width: `100%`, height: `5px`}}></div>
+            <div style={{backgroundColor: `#FFC67B`, width: `100%`, height: `5px`}}></div>
+            <div style={{backgroundColor: `#FFD6A0`, width: `100%`, height: `5px`}}></div>
             <div className="container-fluid edu-container">
                 <div className="container item-wrapper">
                     <div className="row">
-                        <div id="masters" className="col-xs-12 edu-item">
+                        <div id="masters" className="col-xs-12 col-sm-12 col-md-6 edu-item">
                             <div className="edu-img">
                                 <img
                                     src={require("../images/uga-logo.png")}
@@ -31,7 +34,7 @@ function Education() {
                             </div>
                         </div>
 
-                        <div id="bachelors" className="col-xs-12 edu-item">
+                        <div id="bachelors" className="col-xs-12 col-md-5 edu-item">
                             <div className="edu-img">
                                 <img
                                     src={require("../images/uga-logo.png")}
