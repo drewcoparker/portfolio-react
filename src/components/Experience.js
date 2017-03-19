@@ -58,7 +58,7 @@ class Experience extends Component {
                                             <li>Python</li>
                                             <li>Sass</li>
                                             <li>MySql</li>
-                                            <li>Jasmine</li>
+                                            <li>AWS</li>
                                             <li>Google Maps and Mapbox APIs</li>
                                         </ul>
                                     </div>
@@ -113,7 +113,7 @@ class Experience extends Component {
                                             <li>Continuous integration</li>
                                             <li>Beta site administration</li>
                                             <li>VMware and Parallels</li>
-                                            <li>White and black box testing</li>
+                                            <li>Google Docs</li>
                                             <li>Localization testing</li>
                                             <li>Agile methodology</li>
                                         </ul>
@@ -133,7 +133,7 @@ class Experience extends Component {
                                 <div className="years">Oct 2011 - Oct 2012 (1 year)</div>
                                 <hr></hr>
                                 <div className="row">
-                                    <div className="hidden-xs col-xs-12 col-sm-6 resume-wrapper">
+                                    <div className="hidden-xs col-sm-6 resume-wrapper">
                                         <div className="resume-item">
                                             Led testing efforts for Geomedia Professional
                                             within an Agile (Scrum) development environment.
@@ -157,18 +157,18 @@ class Experience extends Component {
                                     </div>
                                     <div className="col-xs-12 col-sm-5 col-sm-offset-1 skills-wrapper">
                                         <ul>
-                                            <li>MERN stack</li>
-                                            <li>ES6 Javascript</li>
-                                            <li>React with Redux</li>
-                                            <li>Express.js</li>
-                                            <li>NPM</li>
-                                            <li>jQuery</li>
-                                            <li>Bootstrap.css</li>
-                                            <li>Python</li>
-                                            <li>Sass</li>
-                                            <li>MySql</li>
-                                            <li>Jasmine</li>
-                                            <li>Google Maps and Mapbox APIs</li>
+                                            <li>HP Quality Center</li>
+                                            <li>VBScript</li>
+                                            <li>Scrum agile methodology</li>
+                                            <li>Spatial databases</li>
+                                            <li>PowerShell</li>
+                                            <li>GIS libraries</li>
+                                            <li>Satellite image processing</li>
+                                            <li>Test automation</li>
+                                            <li>Test plan creation</li>
+                                            <li>Sprint planning</li>
+                                            <li>Jira Greenhopper</li>
+                                            <li>Microsoft Office</li>
                                         </ul>
                                     </div>
                                 </div>

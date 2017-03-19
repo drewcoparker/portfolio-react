@@ -59,7 +59,7 @@ class Header extends Component {
                         <div className="menu-item">
                             <Link
                                 activeClass="active-about"
-                                to="home"
+                                to="about"
                                 spy={true}
                                 smooth={true}
                                 duration={500} >
