@@ -24,7 +24,7 @@ class Experience extends Component {
                                 <div className="years">Nov 2016 - Mar 2017 (4 months)</div>
                                 <hr></hr>
                                 <div className="row">
-                                    <div className="col-xs-12 col-sm-6 resume-wrapper">
+                                    <div className="hidden-xs col-xs-12 col-sm-6 resume-wrapper">
                                         <div className="resume-item">
                                             Produce fullstack web applications with React/Redux
                                             on the frontend and Express/Node.js with MySql or
@@ -109,13 +109,13 @@ class Experience extends Component {
                                             <li>Jira</li>
                                             <li>Sikuli (automation by computer vision)</li>
                                             <li>Unit tests</li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
+                                            <li>Perforce (version control)</li>
+                                            <li>Continuous integration</li>
+                                            <li>Beta site administration</li>
+                                            <li>VMware and Parallels</li>
+                                            <li>White and black box testing</li>
+                                            <li>Localization testing</li>
+                                            <li>Agile methodology</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -133,7 +133,7 @@ class Experience extends Component {
                                 <div className="years">Oct 2011 - Oct 2012 (1 year)</div>
                                 <hr></hr>
                                 <div className="row">
-                                    <div className="col-xs-12 col-sm-6 resume-wrapper">
+                                    <div className="hidden-xs col-xs-12 col-sm-6 resume-wrapper">
                                         <div className="resume-item">
                                             Led testing efforts for Geomedia Professional
                                             within an Agile (Scrum) development environment.
