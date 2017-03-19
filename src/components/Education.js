@@ -22,8 +22,8 @@ function Education() {
                             <hr></hr>
                             <div className="honors-wrapper">
                                 <div className="honors-item">
-                                    Honors: Wormsloe Institute for Environmental
-                                    History Fellowship
+                                    Wormsloe Institute for Environmental
+                                    History Fellow
                                 </div>
                                 <div className="honors-item">
                                     Thesis title: <span>Assessing the Performance of
@@ -49,7 +49,9 @@ function Education() {
                                     Certificate in Geographic Information Science
                                 </div>
                                 <div className="honors-item">
-                                    Secretary of the ASPRS student chapter at UGA
+                                    Secretary for the UGA student chapter of the
+                                    American Society for Photogrammetry and Remote
+                                    Sensing (ASPRS).
                                 </div>
                             </div>
                         </div>

@@ -6,9 +6,9 @@ class Contact extends Component {
     render() {
         return(
             <div className="contact">
-                <div style={{backgroundColor: `#3993DD`, width: `100%`, height: `5px`}}></div>
-                <div style={{backgroundColor: `#5DA6E3`, width: `100%`, height: `5px`}}></div>
-                <div style={{backgroundColor: `#81BAE9`, width: `100%`, height: `5px`}}></div>
+                <div style={{backgroundColor: `#58355E`, width: `100%`, height: `5px`}}></div>
+                <div style={{backgroundColor: `#76597B`, width: `100%`, height: `5px`}}></div>
+                <div style={{backgroundColor: `#947E98`, width: `100%`, height: `5px`}}></div>
                 <div className="container-fluid contact-container">
 
                 </div>

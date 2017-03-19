@@ -63,7 +63,7 @@ body {
 }
 
 .active-about {
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid #3993DD;
 }
 
 .active-experience {
@@ -79,7 +79,7 @@ body {
 }
 
 .active-contact {
-    border-bottom: 3px solid #3993DD;
+    border-bottom: 3px solid #58355E;
 }
 
 
@@ -125,14 +125,21 @@ body {
 }
 
 .skills {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .skills-container {
     display: flex;
     text-decoration: none;
+    font-size: 14px;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.about-blurb {
+    p {
+        line-height: 1.3em;
+    }
 }
 
 #skills-title {
@@ -149,7 +156,7 @@ body {
 }
 
 
-.experience, .education, .projects, .contact {
+.experience, .education, .projects, .contact, .about {
     padding-top: 54px;
     // margin-bottom: 80px;
 }
@@ -173,55 +180,25 @@ body {
 }
 
 .about-container {
-    border-top: 5px solid #8B8B8B;
-    // background-color: rgba(0, 0, 0,0.1);
-}
-
-#about-header {
-    background-color: #BA160C;
+    border-top: 5px solid #A5CDEF;
 }
 
 .experience-container {
     border-top: 5px solid #DF9590;
-    // background-color: rgba(186, 22, 12,0.1);
-    // background-color: rgba(0, 0, 0,0.1);
-}
-
-#experience-header {
-    background-color: #BA160C;
 }
 
 .edu-container  {
     border-top: 5px solid #FFE6C6;
-    // background-color: rgba(255,166,48,0.1);
-    // background-color: rgba(0, 0, 0,0.1);
-
-}
-
-#education-header {
-    background-color: #FFA630;
 }
 
 .projects-container  {
     border-top: 5px solid #C3D7C6;
     min-height: 400px;
-    // background-color: rgba(124,169,130,0.1)
-    // background-color: rgba(0, 0, 0,0.1);
-}
-
-#projects-header {
-    background-color: #7CA982;
 }
 
 .contact-container  {
-    border-top: 5px solid #A5CDEF;
+    border-top: 5px solid #B3A3B5;
     min-height: 800px;
-    // background-color: rgba(57,147,221,0.1)
-    // background-color: rgba(0, 0, 0,0.1);
-}
-
-#contact-header {
-    background-color: #3993DD;
 }
 
 .item-wrapper {
@@ -244,7 +221,7 @@ body {
     }
 }
 
-.work-item {
+.work-item, .about-item {
     min-height: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -258,6 +235,10 @@ body {
     min-height: 450px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.resume-item, .honors-item {
+    line-height: 1.2em;
 }
 
 .project-item {
@@ -276,9 +257,9 @@ body {
     }
 }
 
-.title {
+.title, .name {
     font-size: 18px;
-    font-family: 'Merriweather';
+    font-family: 'Merriweather', sans-serif;
     letter-spacing: .5px;
     font-weight: bold;
     text-align: center;
