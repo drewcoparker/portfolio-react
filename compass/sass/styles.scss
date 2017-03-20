@@ -205,10 +205,9 @@ body {
     max-width: 900px;
 }
 
-.work-item, .edu-item, .about-item {
+.work-item, .edu-item, .about-item, .project-item {
     box-shadow: -1px 0 2px 0 rgba(0,0,0,0.12), 1px 0 2px 0 rgba(0,0,0,0.12), 0 1px 1px 0 rgba(0,0,0,0.24);
     background-color: #fff;
-    padding: 50px;
     p {
         padding: 5px;
         text-align: center;
@@ -222,6 +221,14 @@ body {
 }
 
 .work-item, .about-item {
+    padding: 50px;
+    min-height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.project-item {
+    padding: 5px;
     min-height: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -254,6 +261,18 @@ body {
         margin: auto;
         max-width: 150px;
         border-bottom: rgba(0,0,0,0.12);
+    }
+}
+
+.project-img {
+    img {
+        max-width: 400px;
+    }
+}
+
+.project-img-sm {
+    img {
+        max-width: 100%;
     }
 }
 

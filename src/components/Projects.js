@@ -13,7 +13,16 @@ class Projects extends Component {
                     <div className="container item-wrapper">
                         <div className="row">
                             <div id="movie" className="project-item">
-
+                                <div className="hidden-xs project-img">
+                                    <img
+                                        src={require("../images/movie_app_2.png")}
+                                        role={"presentation"} />
+                                </div>
+                                <div className="hidden-sm hidden-md hidden-lg project-img-sm">
+                                    <img
+                                        src={require("../images/movie_app_3.png")}
+                                        role={"presentation"} />
+                                </div>
                             </div>
 
                             <div id="ebay" className="project-item">
