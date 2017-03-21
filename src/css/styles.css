@@ -260,17 +260,28 @@ body {
   border-bottom: rgba(0, 0, 0, 0.12);
 }
 
-/* line 261, ../../compass/sass/styles.scss */
+/* line 260, ../../compass/sass/styles.scss */
+.project-img {
+  padding-right: 0px !important;
+  margin-bottom: 15px;
+}
+/* line 263, ../../compass/sass/styles.scss */
 .project-img img {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.14), 0 1px 2px rgba(0, 0, 0, 0.28);
   max-width: 100%;
 }
 
-/* line 267, ../../compass/sass/styles.scss */
+/* line 269, ../../compass/sass/styles.scss */
+.project-img-sm {
+  margin-bottom: 15px;
+}
+/* line 271, ../../compass/sass/styles.scss */
 .project-img-sm img {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.14), 0 1px 2px rgba(0, 0, 0, 0.28);
   max-width: 100%;
 }
 
-/* line 272, ../../compass/sass/styles.scss */
+/* line 277, ../../compass/sass/styles.scss */
 .project-title {
   padding-left: 20px;
   padding-top: 20px;
@@ -280,18 +291,13 @@ body {
   font-weight: bold;
 }
 
-/* line 282, ../../compass/sass/styles.scss */
+/* line 287, ../../compass/sass/styles.scss */
 .project-content {
   height: 400px;
   background-color: #cacaca;
 }
 
-/* line 287, ../../compass/sass/styles.scss */
-.project-content-wrapper {
-  padding-left: 0px !important;
-}
-
-/* line 291, ../../compass/sass/styles.scss */
+/* line 296, ../../compass/sass/styles.scss */
 .title, .name {
   font-size: 18px;
   font-family: 'Merriweather', sans-serif;
@@ -301,33 +307,33 @@ body {
   padding-bottom: 5px;
 }
 
-/* line 300, ../../compass/sass/styles.scss */
+/* line 305, ../../compass/sass/styles.scss */
 .years {
   font-size: 14px;
   text-align: center;
   margin-bottom: 20px;
 }
 
-/* line 310, ../../compass/sass/styles.scss */
+/* line 315, ../../compass/sass/styles.scss */
 .skills-wrapper {
   font-size: 14px;
 }
-/* line 312, ../../compass/sass/styles.scss */
+/* line 317, ../../compass/sass/styles.scss */
 .skills-wrapper ul {
   list-style: circle;
 }
 
-/* line 317, ../../compass/sass/styles.scss */
+/* line 322, ../../compass/sass/styles.scss */
 .resume-item, .honors-item {
   font-size: 14px;
   padding: 10px;
 }
-/* line 320, ../../compass/sass/styles.scss */
+/* line 325, ../../compass/sass/styles.scss */
 .resume-item span, .honors-item span {
   font-style: italic;
 }
 
-/* line 325, ../../compass/sass/styles.scss */
+/* line 330, ../../compass/sass/styles.scss */
 #masters {
   margin-right: 20px;
 }

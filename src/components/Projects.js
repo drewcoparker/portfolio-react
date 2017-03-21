@@ -17,12 +17,12 @@ class Projects extends Component {
                                 <hr></hr>
                                 <div className="hidden-xs col-sm-6 project-img">
                                     <img
-                                        src={require("../images/movie_app_2.png")}
+                                        src={require("../images/movie_app_4.png")}
                                         role={"presentation"} />
                                 </div>
                                 <div className="hidden-sm hidden-md hidden-lg col-xs-12 project-img-sm">
                                     <img
-                                        src={require("../images/movie_app_3.png")}
+                                        src={require("../images/movie_app_4.png")}
                                         role={"presentation"} />
                                 </div>
                                 <div className="col-xs-12 col-sm-6 project-content-wrapper">
