@@ -24,11 +24,11 @@ class About extends Component {
                                 <hr></hr>
                                 <div className="about-blurb">
                                     <p>
-                                        Fullstack web developer with 5 previous
+                                        I'm a Fullstack web developer with 5 previous
                                         years of experience in quality assurance.
-                                        Highly motivated, imaginative, observant,
-                                        and empathic. Master level critical thinking
-                                        and information synthesis skills. Possesses
+                                        I'm highly motivated, imaginative, observant,
+                                        and empathic. I have excellent critical thinking
+                                        and information synthesis skills and I possess
                                         an MS Degree in Geographic Information Science.
                                     </p>
                                 </div>
