@@ -228,7 +228,6 @@ body {
 .project-item {
   overflow: hidden;
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 /* line 236, ../../compass/sass/styles.scss */
@@ -297,8 +296,12 @@ body {
   padding: 15px;
   margin-bottom: 15px;
 }
+/* line 291, ../../compass/sass/styles.scss */
+.project-content span {
+  line-height: 1.3em;
+}
 
-/* line 298, ../../compass/sass/styles.scss */
+/* line 300, ../../compass/sass/styles.scss */
 .project-tech {
   display: flex;
   flex-flow: row wrap;
@@ -307,12 +310,12 @@ body {
   align-items: stretch;
 }
 
-/* line 306, ../../compass/sass/styles.scss */
+/* line 308, ../../compass/sass/styles.scss */
 #tech-title {
   margin-bottom: 25px;
   text-align: center;
 }
-/* line 310, ../../compass/sass/styles.scss */
+/* line 312, ../../compass/sass/styles.scss */
 #tech-title span {
   letter-spacing: 2px;
   padding-bottom: 3px;
@@ -321,7 +324,7 @@ body {
   color: #000;
 }
 
-/* line 319, ../../compass/sass/styles.scss */
+/* line 321, ../../compass/sass/styles.scss */
 .tech-card {
   margin: 7px 7px 0 0;
   height: 25px;
@@ -333,7 +336,7 @@ body {
   border-radius: 2px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.14);
 }
-/* line 329, ../../compass/sass/styles.scss */
+/* line 331, ../../compass/sass/styles.scss */
 .tech-card span {
   letter-spacing: 1px;
   padding-left: 8px;
@@ -341,7 +344,7 @@ body {
   line-height: 2em;
 }
 
-/* line 337, ../../compass/sass/styles.scss */
+/* line 339, ../../compass/sass/styles.scss */
 .title, .name {
   font-size: 18px;
   font-family: 'Merriweather', sans-serif;
@@ -351,33 +354,33 @@ body {
   padding-bottom: 5px;
 }
 
-/* line 346, ../../compass/sass/styles.scss */
+/* line 348, ../../compass/sass/styles.scss */
 .years {
   font-size: 14px;
   text-align: center;
   margin-bottom: 20px;
 }
 
-/* line 356, ../../compass/sass/styles.scss */
+/* line 358, ../../compass/sass/styles.scss */
 .skills-wrapper {
   font-size: 14px;
 }
-/* line 358, ../../compass/sass/styles.scss */
+/* line 360, ../../compass/sass/styles.scss */
 .skills-wrapper ul {
   list-style: circle;
 }
 
-/* line 363, ../../compass/sass/styles.scss */
+/* line 365, ../../compass/sass/styles.scss */
 .resume-item, .honors-item {
   font-size: 14px;
   padding: 10px;
 }
-/* line 366, ../../compass/sass/styles.scss */
+/* line 368, ../../compass/sass/styles.scss */
 .resume-item span, .honors-item span {
   font-style: italic;
 }
 
-/* line 371, ../../compass/sass/styles.scss */
+/* line 373, ../../compass/sass/styles.scss */
 #masters {
   margin-right: 20px;
 }
