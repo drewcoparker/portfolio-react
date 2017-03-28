@@ -229,7 +229,6 @@ body {
 
 .project-item {
     overflow: hidden;
-    // min-height: 600px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -263,7 +262,6 @@ body {
     margin-bottom: 15px;
     img {
         box-shadow: 0 0 1px rgba(0,0,0,.14), 0 1px 2px rgba(0,0,0,.28);
-        // max-width: 100%;
     }
 }
 
@@ -271,7 +269,6 @@ body {
     margin-bottom: 15px;
     img {
         box-shadow: 0 0 1px rgba(0,0,0,.14), 0 1px 2px rgba(0,0,0,.28);
-        // max-width: 100%;
     }
 }
 
@@ -288,12 +285,10 @@ body {
 .project-content {
     line-height: 1.2em;
     font-size: 14px;
-    text-align: center;
+    text-align: justify;
     padding: 15px;
-    // height: 400px;
     margin-bottom: 15px;
-    border: dashed 1px #cacaca;
-    // background-color: #cacaca;
+    // border: dashed 1px #cacaca;
 }
 
 .project-content-wrapper {
@@ -305,29 +300,36 @@ body {
     flex-flow: row wrap;
     text-align: left;
     justify-content: flex-start;
+    align-items: stretch;
 }
 
 #tech-title{
-    text-align: left;
-    margin-bottom: 10px;
+    // display: inline-block;
+    margin-bottom: 25px;
+    text-align: center;
+    span {
+        letter-spacing: 2px;
+        padding-bottom: 3px;
+        text-transform: uppercase;
+        border-bottom: 3px solid #FFA630;
+        color: #000;
+    }
 }
 
 .tech-card {
-    margin: 5px 5px 0 0;
-    width: 110px;
+    margin: 7px 7px 0 0;
     height: 25px;
     height: 30px;
-    // border: 1px dashed #cacaca;
-    border-left: 5px solid rgba(57, 147, 221, 0.8);
-    border-bottom: 1px solid rgba(57, 147, 221, 0.8);
-    border-top: 1px solid rgba(57, 147, 221, 0.8);
-    border-right: 1px solid rgba(57, 147, 221, 0.8);
+    border-left: 5px solid rgba(57, 147, 221, 1);
+    border-bottom: 1px solid rgba(57, 147, 221, 1);
+    border-top: 1px solid rgba(57, 147, 221, 1);
+    border-right: 1px solid rgba(57, 147, 221, 1);
     border-radius: 2px;
-    // box-shadow: 0 0 1px rgba(0,0,0,.14), 0 1px 2px rgba(0,0,0,.28);
     box-shadow: 0 1px 1px rgba(0,0,0,.14);
     span {
         letter-spacing: 1px;
-        padding-left: 5px;
+        padding-left: 8px;
+        padding-right: 8px;
         line-height: 2em;
     }
 }

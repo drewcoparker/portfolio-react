@@ -46,16 +46,15 @@ class Projects extends Component {
                                             Movie Database provides the API.
                                         </span>
                                         <hr></hr>
-                                        <div id="tech-title">Technologies:</div>
+                                        <div id="tech-title"><span>Tech used</span></div>
                                         <div className="project-tech">
                                             <div className="tech-card"><span>React</span></div>
                                             <div className="tech-card"><span>Redux</span></div>
                                             <div className="tech-card"><span>AJAX</span></div>
-                                            <div className="tech-card"><span>Bootstrap</span></div>
-                                            <div className="tech-card"><span>jQuery</span></div>
                                             <div className="tech-card"><span>APIs</span></div>
+                                            <div className="tech-card"><span>jQuery</span></div>
+                                            <div className="tech-card"><span>Bootstrap</span></div>
                                             <div className="tech-card"><span>Router</span></div>
-                                            <div className="tech-card"><span>ES6</span></div>
                                             <div className="tech-card"><span>ES6</span></div>
                                         </div>
                                     </div>
@@ -80,7 +79,34 @@ class Projects extends Component {
                                 </div>
                                 <div className="col-xs-12 col-sm-6 project-content-wrapper">
                                     <div className="project-content">
-                                        This
+                                        <span>
+                                            Trailers is an app that lets movie lover
+                                            browse now playing and upcoming movies
+                                            and quickly view their trailers. The
+                                            trailers are presented in a modal, so it's
+                                            quite easy to start one, dismiss it, and
+                                            move on to the next.
+                                        </span>
+                                        <br></br>
+                                        <br></br>
+                                        <span>
+                                            Movies are displayed on handsome
+                                            cards featuring the poster, director,
+                                            runtime, and the mpaa rating. The
+                                            Movie Database provides the API.
+                                        </span>
+                                        <hr></hr>
+                                        <div id="tech-title"><span>Tech used</span></div>
+                                        <div className="project-tech">
+                                            <div className="tech-card"><span>React</span></div>
+                                            <div className="tech-card"><span>Redux</span></div>
+                                            <div className="tech-card"><span>AJAX</span></div>
+                                            <div className="tech-card"><span>APIs</span></div>
+                                            <div className="tech-card"><span>jQuery</span></div>
+                                            <div className="tech-card"><span>Bootstrap</span></div>
+                                            <div className="tech-card"><span>Router</span></div>
+                                            <div className="tech-card"><span>ES6</span></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -104,12 +130,26 @@ class Projects extends Component {
                                 </div>
                                 <div className="col-xs-12 col-sm-6 project-content-wrapper">
                                     <div className="project-content">
-                                        AtlantaVibes is a full-stack application
-                                        that aggregates data from the top music
-                                        festivals, in Atlanta, into one easy to
-                                        use website. AtlantaVibes lets users view,
-                                        rate and comment on their favorite festivals
-                                        in Atlanta.
+                                        <span>
+                                            AtlantaVibes is a full-stack application
+                                            that aggregates data from the top music
+                                            festivals, in Atlanta, into one easy to
+                                            use website. AtlantaVibes lets users view,
+                                            rate and comment on their favorite festivals
+                                            in Atlanta.
+                                        </span>
+                                        <hr></hr>
+                                        <div id="tech-title"><span>Tech used</span></div>
+                                        <div className="project-tech">
+                                            <div className="tech-card"><span>React</span></div>
+                                            <div className="tech-card"><span>Redux</span></div>
+                                            <div className="tech-card"><span>AJAX</span></div>
+                                            <div className="tech-card"><span>APIs</span></div>
+                                            <div className="tech-card"><span>jQuery</span></div>
+                                            <div className="tech-card"><span>Bootstrap</span></div>
+                                            <div className="tech-card"><span>Router</span></div>
+                                            <div className="tech-card"><span>ES6</span></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
