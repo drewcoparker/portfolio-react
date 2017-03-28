@@ -48,13 +48,15 @@ class Projects extends Component {
                                         <hr></hr>
                                         <div id="tech-title">Technologies:</div>
                                         <div className="project-tech">
-                                            <div className="tech-card">
-                                                <span>React</span>
-                                            </div>
+                                            <div className="tech-card"><span>React</span></div>
                                             <div className="tech-card"><span>Redux</span></div>
                                             <div className="tech-card"><span>AJAX</span></div>
                                             <div className="tech-card"><span>Bootstrap</span></div>
                                             <div className="tech-card"><span>jQuery</span></div>
+                                            <div className="tech-card"><span>APIs</span></div>
+                                            <div className="tech-card"><span>Router</span></div>
+                                            <div className="tech-card"><span>ES6</span></div>
+                                            <div className="tech-card"><span>ES6</span></div>
                                         </div>
                                     </div>
                                 </div>
