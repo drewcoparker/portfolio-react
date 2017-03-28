@@ -45,12 +45,16 @@ class Projects extends Component {
                                             runtime, and the mpaa rating. The
                                             Movie Database provides the API.
                                         </span>
-                                        <br></br>
-                                        <br></br>
+                                        <hr></hr>
                                         <div id="tech-title">Technologies:</div>
                                         <div className="project-tech">
-                                            <div className="tech-item"><span>React</span></div>
-                                            <div className="tech-item"><span>Redux</span></div>
+                                            <div className="tech-card">
+                                                <span>React</span>
+                                            </div>
+                                            <div className="tech-card"><span>Redux</span></div>
+                                            <div className="tech-card"><span>AJAX</span></div>
+                                            <div className="tech-card"><span>Bootstrap</span></div>
+                                            <div className="tech-card"><span>jQuery</span></div>
                                         </div>
                                     </div>
                                 </div>

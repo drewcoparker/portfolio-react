@@ -303,25 +303,22 @@ body {
 /* line 302, ../../compass/sass/styles.scss */
 .project-tech {
   display: flex;
+  text-align: left;
 }
 
-/* line 306, ../../compass/sass/styles.scss */
+/* line 307, ../../compass/sass/styles.scss */
 #tech-title {
+  text-align: left;
   margin-bottom: 10px;
 }
 
-/* line 310, ../../compass/sass/styles.scss */
-.tech-item {
-  margin: 5px;
-}
 /* line 312, ../../compass/sass/styles.scss */
-.tech-item span {
-  padding: 3px;
-  background-color: #3993DD;
-  color: #fff;
+.tech-card {
+  height: 30px;
+  border-left: 3px solid #3993DD;
 }
 
-/* line 320, ../../compass/sass/styles.scss */
+/* line 323, ../../compass/sass/styles.scss */
 .title, .name {
   font-size: 18px;
   font-family: 'Merriweather', sans-serif;
@@ -331,33 +328,33 @@ body {
   padding-bottom: 5px;
 }
 
-/* line 329, ../../compass/sass/styles.scss */
+/* line 332, ../../compass/sass/styles.scss */
 .years {
   font-size: 14px;
   text-align: center;
   margin-bottom: 20px;
 }
 
-/* line 339, ../../compass/sass/styles.scss */
+/* line 342, ../../compass/sass/styles.scss */
 .skills-wrapper {
   font-size: 14px;
 }
-/* line 341, ../../compass/sass/styles.scss */
+/* line 344, ../../compass/sass/styles.scss */
 .skills-wrapper ul {
   list-style: circle;
 }
 
-/* line 346, ../../compass/sass/styles.scss */
+/* line 349, ../../compass/sass/styles.scss */
 .resume-item, .honors-item {
   font-size: 14px;
   padding: 10px;
 }
-/* line 349, ../../compass/sass/styles.scss */
+/* line 352, ../../compass/sass/styles.scss */
 .resume-item span, .honors-item span {
   font-style: italic;
 }
 
-/* line 354, ../../compass/sass/styles.scss */
+/* line 357, ../../compass/sass/styles.scss */
 #masters {
   margin-right: 20px;
 }
