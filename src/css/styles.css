@@ -345,8 +345,18 @@ body {
 }
 
 /* line 339, ../../compass/sass/styles.scss */
-.title, .name {
+.name {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+/* line 344, ../../compass/sass/styles.scss */
+.title {
   font-size: 18px;
+}
+
+/* line 348, ../../compass/sass/styles.scss */
+.title, .name {
   font-family: 'Merriweather', sans-serif;
   letter-spacing: .5px;
   font-weight: bold;
@@ -354,43 +364,43 @@ body {
   padding-bottom: 5px;
 }
 
-/* line 348, ../../compass/sass/styles.scss */
+/* line 356, ../../compass/sass/styles.scss */
 .years {
   font-size: 14px;
   text-align: center;
   margin-bottom: 20px;
 }
 
-/* line 358, ../../compass/sass/styles.scss */
+/* line 366, ../../compass/sass/styles.scss */
 .skills-wrapper {
   font-size: 14px;
 }
-/* line 360, ../../compass/sass/styles.scss */
+/* line 368, ../../compass/sass/styles.scss */
 .skills-wrapper ul {
   list-style: circle;
 }
 
-/* line 365, ../../compass/sass/styles.scss */
+/* line 373, ../../compass/sass/styles.scss */
 .resume-item, .honors-item {
   font-size: 14px;
   padding: 10px;
 }
-/* line 368, ../../compass/sass/styles.scss */
+/* line 376, ../../compass/sass/styles.scss */
 .resume-item span, .honors-item span {
   font-style: italic;
 }
 
-/* line 373, ../../compass/sass/styles.scss */
+/* line 381, ../../compass/sass/styles.scss */
 #masters {
   margin-right: 20px;
 }
 
-/* line 383, ../../compass/sass/styles.scss */
+/* line 391, ../../compass/sass/styles.scss */
 .contact-item {
   overflow: hidden;
 }
 
-/* line 387, ../../compass/sass/styles.scss */
+/* line 395, ../../compass/sass/styles.scss */
 .contact-title {
   font-size: 20px;
   font-family: 'Merriweather', sans-serif;
@@ -400,7 +410,7 @@ body {
   padding-bottom: 5px;
 }
 
-/* line 396, ../../compass/sass/styles.scss */
+/* line 404, ../../compass/sass/styles.scss */
 #email {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -410,8 +420,38 @@ body {
   padding-bottom: 5px;
 }
 
-/* line 405, ../../compass/sass/styles.scss */
+/* line 415, ../../compass/sass/styles.scss */
 .github, .linkedin, .resume {
-  height: 100px;
-  border: 1px dashed #cacaca;
+  padding-bottom: 15px;
+}
+
+/* line 421, ../../compass/sass/styles.scss */
+.contact-card {
+  position: relative;
+  width: 200px;
+  border-left: 5px solid #3993dd;
+  border-bottom: 1px solid #3993dd;
+  border-top: 1px solid #3993dd;
+  border-right: 1px solid #3993dd;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.14);
+}
+
+/* line 434, ../../compass/sass/styles.scss */
+.contact-icon {
+  display: inline-block;
+  padding: 9px 15px;
+}
+/* line 437, ../../compass/sass/styles.scss */
+.contact-icon .fa {
+  color: #3993dd;
+}
+
+/* line 443, ../../compass/sass/styles.scss */
+.contact-card-text {
+  letter-spacing: 2px;
+  display: inline;
+  position: absolute;
+  top: 38%;
+  left: 45%;
 }

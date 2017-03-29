@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, DirectLink, Events, animateScroll, scrollSpy } from 'react-scroll';
+import { Link, Events, animateScroll, scrollSpy } from 'react-scroll';
 
 class Header extends Component {
 
@@ -44,16 +44,7 @@ class Header extends Component {
             <div className="header">
                 <div className="header-container">
 
-                    <div className="header-brand">
-                        <Link
-                            activeClass="active"
-                            to="home"
-                            spy={true}
-                            smooth={true}
-                            duration={500} >
-                            Drew Parker
-                        </Link>
-                    </div>
+
 
                     <div className="header-menu-items">
                         <div className="menu-item">
@@ -115,3 +106,15 @@ class Header extends Component {
 }
 
 export default Header
+
+
+// <div className="header-brand">
+//     <Link
+//         activeClass="active"
+//         to="home"
+//         spy={true}
+//         smooth={true}
+//         duration={500} >
+//         Drew Parker
+//     </Link>
+// </div>
