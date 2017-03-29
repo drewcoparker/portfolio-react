@@ -198,26 +198,26 @@ body {
 }
 
 /* line 208, ../../compass/sass/styles.scss */
-.work-item, .edu-item, .about-item, .project-item {
+.work-item, .edu-item, .about-item, .project-item, .contact-item {
   box-shadow: -1px 0 2px 0 rgba(0, 0, 0, 0.12), 1px 0 2px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);
   background-color: #fff;
 }
 /* line 211, ../../compass/sass/styles.scss */
-.work-item p, .edu-item p, .about-item p, .project-item p {
+.work-item p, .edu-item p, .about-item p, .project-item p, .contact-item p {
   padding: 5px;
   text-align: center;
 }
 /* line 215, ../../compass/sass/styles.scss */
-.work-item ul, .edu-item ul, .about-item ul, .project-item ul {
+.work-item ul, .edu-item ul, .about-item ul, .project-item ul, .contact-item ul {
   list-style: square;
 }
 /* line 218, ../../compass/sass/styles.scss */
-.work-item li, .edu-item li, .about-item li, .project-item li {
+.work-item li, .edu-item li, .about-item li, .project-item li, .contact-item li {
   padding: 5px 0;
 }
 
 /* line 223, ../../compass/sass/styles.scss */
-.work-item, .about-item, .edu-item {
+.work-item, .about-item, .edu-item, .contact-item {
   padding: 50px;
   min-height: 400px;
   margin-top: 20px;
@@ -383,4 +383,35 @@ body {
 /* line 373, ../../compass/sass/styles.scss */
 #masters {
   margin-right: 20px;
+}
+
+/* line 383, ../../compass/sass/styles.scss */
+.contact-item {
+  overflow: hidden;
+}
+
+/* line 387, ../../compass/sass/styles.scss */
+.contact-title {
+  font-size: 20px;
+  font-family: 'Merriweather', sans-serif;
+  letter-spacing: .5px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+/* line 396, ../../compass/sass/styles.scss */
+#email {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  letter-spacing: .5px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+/* line 405, ../../compass/sass/styles.scss */
+.github, .linkedin, .resume {
+  height: 100px;
+  border: 1px dashed #cacaca;
 }

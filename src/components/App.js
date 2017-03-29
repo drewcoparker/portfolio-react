@@ -12,7 +12,7 @@ class App extends Component {
         return (
             <div className="App">
                 <Header />
-                <Home name="home"/>
+                {/*<Home name="home"/>*/}
                 <About name="about"/>
                 <Experience name="experience"/>
                 <Education name="education"/>

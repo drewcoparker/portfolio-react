@@ -12,7 +12,7 @@ class About extends Component {
                 <div className="container-fluid about-container">
                     <div className="container item-wrapper">
                         <div className="row">
-                            <div id="digitalcrafts" className="about-item">
+                            <div className="about-item">
                                 <div className="about-img">
                                     <img
                                         src={require("../images/drew_bust.png")}

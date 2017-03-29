@@ -10,7 +10,24 @@ class Contact extends Component {
                 <div style={{backgroundColor: `#76597B`, width: `100%`, height: `5px`}}></div>
                 <div style={{backgroundColor: `#947E98`, width: `100%`, height: `5px`}}></div>
                 <div className="container-fluid contact-container">
+                    <div className="container item-wrapper">
+                        <div className="row">
+                            <div className="contact-item">
+                                <div className="contact-title">Contact Me</div>
+                                <hr></hr>
+                                <div id="email">drew.i.parker@gmail.com</div>
+                                <div className="col-xs-12 col-sm-4 github">
 
+                                </div>
+                                <div className="col-xs-12 col-sm-4 linkedin">
+
+                                </div>
+                                <div className="col-xs-12 col-sm-4 resume">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
