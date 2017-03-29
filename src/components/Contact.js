@@ -18,34 +18,40 @@ class Contact extends Component {
                                 <div id="email">drew.i.parker@gmail.com</div>
                                 <div className="contact-card-wrapper">
                                     <div className="col-xs-12 col-sm-4 github">
-                                        <div className="contact-card">
-                                            <div className="contact-icon">
-                                                <i className="fa fa-github fa-3x" aria-hidden="true"></i>
+                                        <a target="_blank" href="https://github.com/drewcoparker">
+                                            <div className="contact-card">
+                                                <div className="contact-icon">
+                                                    <i className="fa fa-github fa-3x" aria-hidden="true"></i>
+                                                </div>
+                                                <div className="contact-card-text">
+                                                    <span>GitHub</span>
+                                                </div>
                                             </div>
-                                            <div className="contact-card-text">
-                                                <span>GitHub</span>
-                                            </div>
-                                        </div>
+                                        </a>
                                     </div>
                                     <div className="col-xs-12 col-sm-4 linkedin">
-                                        <div className="contact-card">
-                                            <div className="contact-icon">
-                                                <i className="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+                                        <a target="_blank" href="https://www.linkedin.com/in/drew-parker">
+                                            <div className="contact-card">
+                                                <div className="contact-icon">
+                                                    <i className="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+                                                </div>
+                                                <div className="contact-card-text">
+                                                    <span>LikedIn</span>
+                                                </div>
                                             </div>
-                                            <div className="contact-card-text">
-                                                <span>LikedIn</span>
-                                            </div>
-                                        </div>
+                                        </a>
                                     </div>
                                     <div className="col-xs-12 col-sm-4 resume">
-                                        <div className="contact-card">
-                                            <div className="contact-icon">
-                                                <i className="fa fa-file-pdf-o fa-3x" aria-hidden="true"></i>
+                                        <a target="_blank" href="./files/Drew_Parker_Resume_March_2017.pdf">
+                                            <div className="contact-card">
+                                                <div className="contact-icon">
+                                                    <i className="fa fa-file-pdf-o fa-3x" aria-hidden="true"></i>
+                                                </div>
+                                                <div className="contact-card-text">
+                                                    <span>Resume</span>
+                                                </div>
                                             </div>
-                                            <div className="contact-card-text">
-                                                <span>Resume</span>
-                                            </div>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

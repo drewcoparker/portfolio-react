@@ -198,7 +198,7 @@ body {
 
 .contact-container  {
     border-top: 5px solid #B3A3B5;
-    min-height: 800px;
+    min-height: 600px;
 }
 
 .item-wrapper {
@@ -402,15 +402,18 @@ body {
 }
 
 #email {
-    margin-top: 40px;
+    margin-top: 50px;
     margin-bottom: 40px;
     letter-spacing: .5px;
     font-weight: bold;
     text-align: center;
     padding-bottom: 5px;
+    letter-spacing: 2px;
 }
 
-
+.contact-card-wrapper {
+    margin-top: 50px;
+}
 
 .github, .linkedin, .resume {
     // height: 100px;
@@ -435,13 +438,11 @@ body {
     display: inline-block;
     padding: 9px 15px;
     .fa {
-
         color: rgba(57, 147, 221, 1);
     }
 }
 
 .contact-card-text {
-    // height: 100%;
     letter-spacing: 2px;
     display: inline;
     position: absolute;
