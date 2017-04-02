@@ -272,14 +272,49 @@ body {
     }
 }
 
+.project-header {
+    display: flex;
+}
+
 .project-title {
+    align-self: flex-start;
     padding-left: 20px;
     padding-top: 20px;
+    margin-right: 20px;
     // line-height: 40px;
     font-size: 20px;
     font-family: 'Merriweather', sans-serif;
     letter-spacing: .5px;
     font-weight: bold;
+}
+
+.project-sub-title {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+.github-repo {
+    padding-top: 35px;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 13px;
+    margin-left: auto;
+    a {
+        text-decoration:none;
+    }
+    a:hover {
+        cursor: pointer;
+    }
+    span {
+        padding: 5px;
+        background-color: #3993DD;
+        color: #fff;
+        border-radius: 3px;
+        letter-spacing: 1px;
+    }
+
 }
 
 .project-content {

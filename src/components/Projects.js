@@ -13,7 +13,16 @@ class Projects extends Component {
                     <div className="container item-wrapper">
                         <div className="row">
                             <div id="movie" className="project-item">
-                                <div className="project-title">Trailers</div>
+                                <div className="project-header">
+                                    <div className="project-title"><span>Trailers</span>
+                                        <div className="project-sub-title">An app to view movie trailers</div>
+                                    </div>
+                                    <div className="github-repo">
+                                        <a target="_blank" href="https://github.com/drewcoparker/movie-app-reactified">
+                                            <div><span>GitHub</span></div>
+                                        </a>
+                                    </div>
+                                </div>
                                 <hr></hr>
                                 <div className="hidden-xs col-sm-6 project-img">
                                     <img
@@ -65,7 +74,17 @@ class Projects extends Component {
                         </div>
                         <div className="row">
                             <div id="ebay" className="project-item">
-                                <div className="project-title">Auctioneer</div>
+                                <div className="project-header">
+                                    <div className="project-title"><span>Auctioneer</span>
+                                        <div className="project-sub-title">An auction site</div>
+                                    </div>
+                                    <div className="github-repo">
+                                        <a target="_blank" href="https://github.com/drewcoparker/Auctioneer">
+                                            <div><span>GitHub</span></div>
+                                        </a>
+                                    </div>
+                                </div>
+
                                 <hr></hr>
                                 <div className="hidden-xs col-sm-6 project-img">
                                     <img
@@ -121,7 +140,16 @@ class Projects extends Component {
 
                         <div className="row">
                             <div id="geo" className="project-item">
-                                <div className="project-title">AtlantaVibes</div>
+                                <div className="project-header">
+                                    <div className="project-title"><span>AtlantaVibes</span>
+                                        <div className="project-sub-title">Get info on Atlanta's music festivals</div>
+                                    </div>
+                                    <div className="github-repo">
+                                        <a target="_blank" href="https://github.com/drewcoparker/AtlantaVibes">
+                                            <div><span>GitHub</span></div>
+                                        </a>
+                                    </div>
+                                </div>
                                 <hr></hr>
                                 <div className="hidden-xs col-sm-6 project-img">
                                     <img
