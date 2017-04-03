@@ -203,6 +203,7 @@ body {
 
 .item-wrapper {
     max-width: 900px;
+    margin-top: 20px;
 }
 
 .work-item, .edu-item, .about-item, .project-item, .contact-item {
@@ -220,7 +221,7 @@ body {
     }
 }
 
-.work-item, .about-item, .edu-item, .contact-item {
+.work-item, .about-item, .contact-item {
     padding: 50px;
     min-height: 400px;
     margin-top: 20px;
@@ -233,11 +234,22 @@ body {
     // margin-bottom: 20px;
 }
 
-.item-wrapper {
-    margin-top: 20px;
+.edu-wrapper {
+    padding: 0;
 }
 
+// #masters {
+//     padding-left: 0;
+//     padding-right: 7.5px;
+// }
+//
+// #bachelors {
+//     padding-right: 0;
+//     padding-left: 7.5px;
+// }
+
 .edu-item {
+    padding: 50px;
     min-height: 450px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -411,10 +423,6 @@ body {
     span {
         font-style: italic;
     }
-}
-
-#masters {
-    margin-right: 20px;
 }
 
 .projects-container {

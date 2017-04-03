@@ -10,51 +10,60 @@ function Education() {
             <div className="container-fluid edu-container">
                 <div className="container item-wrapper">
                     <div className="row">
-                        <div id="masters" className="col-xs-12 col-sm-5 col-sm-offset-1 edu-item">
-                            <div className="edu-img">
-                                <img
-                                    src={require("../images/uga-logo.png")}
-                                    role={"presentation"}
-                                />
-                            </div>
-                            <div className="title">Master of Science in Geography</div>
-                            <div className="years">Graduated August 2011</div>
-                            <hr></hr>
-                            <div className="honors-wrapper">
-                                <div className="honors-item">
-                                    Wormsloe Institute for Environmental
-                                    History Fellow
+
+                        <div id="masters" className="col-xs-12 col-sm-6 edu-wrapper">
+                            <div className=" edu-item">
+                                <div className="edu-img">
+                                    <img
+                                        src={require("../images/uga-logo.png")}
+                                        role={"presentation"}
+                                    />
                                 </div>
-                                <div className="honors-item">
-                                    Thesis title: <span>Assessing the Performance of
-                                    Two Non-Commercial Bare Earth Classification
-                                    Algorithms for LiDAR Data Sets within the
-                                    Southern Appalachians</span>
+                                <div className="title">Master of Science in Geography</div>
+                                <div className="years">Graduated August 2011</div>
+                                <hr></hr>
+                                <div className="honors-wrapper">
+                                    <div className="honors-item">
+                                        Wormsloe Institute for Environmental
+                                        History Fellow
+                                    </div>
+                                    <div className="honors-item">
+                                        Thesis title: <span>Assessing the Performance of
+                                        Two Non-Commercial Bare Earth Classification
+                                        Algorithms for LiDAR Data Sets within the
+                                        Southern Appalachians</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div id="bachelors" className="col-xs-12 col-sm-5 edu-item">
-                            <div className="edu-img">
-                                <img
-                                    src={require("../images/uga-logo.png")}
-                                    role={"presentation"}
-                                />
-                            </div>
-                            <div className="title">Bachelor of Science in Geography</div>
-                            <div className="years">Graduated May 2009</div>
-                            <hr></hr>
-                            <div className="honors-wrapper">
-                                <div className="honors-item">
-                                    Certificate in Geographic Information Science
+                        <div id="bachelors" className="col-xs-12 col-sm-6 edu-wrapper">
+                            <div className="edu-item">
+                                <div className="edu-img">
+                                    <img
+                                        src={require("../images/uga-logo.png")}
+                                        role={"presentation"}
+                                    />
                                 </div>
-                                <div className="honors-item">
-                                    Secretary for the UGA student chapter of the
-                                    American Society for Photogrammetry and Remote
-                                    Sensing (ASPRS).
+                                <div className="title">Bachelor of Science in Geography</div>
+                                <div className="years">Graduated May 2009</div>
+                                <hr></hr>
+                                <div className="honors-wrapper">
+                                    <div className="honors-item">
+                                        Certificate in Geographic Information Science
+                                    </div>
+                                    <div className="honors-item">
+                                        Secretary for the UGA student chapter of the
+                                        American Society for Photogrammetry and Remote
+                                        Sensing (ASPRS).
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
+
+
+
                     </div>
                 </div>
             </div>

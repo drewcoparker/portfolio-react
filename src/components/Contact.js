@@ -16,6 +16,7 @@ class Contact extends Component {
                                 <div className="contact-title">Contact Me</div>
                                 <hr></hr>
                                 <div id="email">drew.i.parker@gmail.com</div>
+                                
                                 <div className="contact-card-wrapper">
                                     <div className="col-xs-12 col-sm-4 github">
                                         <a target="_blank" href="https://github.com/drewcoparker">
