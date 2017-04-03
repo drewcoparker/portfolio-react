@@ -166,58 +166,58 @@ body {
   border-radius: 0 0 5px 5px;
 }
 
-/* line 182, ../../compass/sass/styles.scss */
+/* line 178, ../../compass/sass/styles.scss */
 .about-container {
   border-top: 5px solid #A5CDEF;
 }
 
-/* line 186, ../../compass/sass/styles.scss */
+/* line 182, ../../compass/sass/styles.scss */
 .experience-container {
   border-top: 5px solid #DF9590;
 }
 
-/* line 190, ../../compass/sass/styles.scss */
+/* line 186, ../../compass/sass/styles.scss */
 .edu-container {
   border-top: 5px solid #FFE6C6;
 }
 
-/* line 194, ../../compass/sass/styles.scss */
+/* line 190, ../../compass/sass/styles.scss */
 .projects-container {
   border-top: 5px solid #C3D7C6;
 }
 
-/* line 199, ../../compass/sass/styles.scss */
+/* line 195, ../../compass/sass/styles.scss */
 .contact-container {
   border-top: 5px solid #B3A3B5;
   min-height: 800px;
 }
 
-/* line 204, ../../compass/sass/styles.scss */
+/* line 200, ../../compass/sass/styles.scss */
 .item-wrapper {
   max-width: 900px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
-/* line 209, ../../compass/sass/styles.scss */
+/* line 205, ../../compass/sass/styles.scss */
 .work-item, .edu-item, .about-item, .project-item, .contact-item {
   box-shadow: -1px 0 2px 0 rgba(0, 0, 0, 0.12), 1px 0 2px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);
   background-color: #fff;
 }
-/* line 212, ../../compass/sass/styles.scss */
+/* line 208, ../../compass/sass/styles.scss */
 .work-item p, .edu-item p, .about-item p, .project-item p, .contact-item p {
   padding: 5px;
   text-align: center;
 }
-/* line 216, ../../compass/sass/styles.scss */
+/* line 212, ../../compass/sass/styles.scss */
 .work-item ul, .edu-item ul, .about-item ul, .project-item ul, .contact-item ul {
   list-style: square;
 }
-/* line 219, ../../compass/sass/styles.scss */
+/* line 215, ../../compass/sass/styles.scss */
 .work-item li, .edu-item li, .about-item li, .project-item li, .contact-item li {
   padding: 5px 0;
 }
 
-/* line 224, ../../compass/sass/styles.scss */
+/* line 220, ../../compass/sass/styles.scss */
 .work-item, .about-item, .contact-item {
   padding: 50px;
   min-height: 400px;
@@ -225,18 +225,18 @@ body {
   margin-bottom: 20px;
 }
 
-/* line 231, ../../compass/sass/styles.scss */
+/* line 227, ../../compass/sass/styles.scss */
 .project-item {
   overflow: hidden;
   margin-top: 20px;
 }
 
-/* line 237, ../../compass/sass/styles.scss */
+/* line 233, ../../compass/sass/styles.scss */
 .edu-wrapper {
   padding: 0;
 }
 
-/* line 251, ../../compass/sass/styles.scss */
+/* line 247, ../../compass/sass/styles.scss */
 .edu-item {
   padding: 50px;
   min-height: 450px;
@@ -244,16 +244,16 @@ body {
   margin-bottom: 10px;
 }
 
-/* line 258, ../../compass/sass/styles.scss */
+/* line 254, ../../compass/sass/styles.scss */
 .resume-item, .honors-item {
   line-height: 1.2em;
 }
 
-/* line 262, ../../compass/sass/styles.scss */
+/* line 258, ../../compass/sass/styles.scss */
 .work-img, .edu-img, .about-img {
   margin-bottom: 15px;
 }
-/* line 264, ../../compass/sass/styles.scss */
+/* line 260, ../../compass/sass/styles.scss */
 .work-img img, .edu-img img, .about-img img {
   display: block;
   margin: auto;
@@ -261,31 +261,31 @@ body {
   border-bottom: rgba(0, 0, 0, 0.12);
 }
 
-/* line 272, ../../compass/sass/styles.scss */
+/* line 268, ../../compass/sass/styles.scss */
 .project-img {
   padding-right: 0px !important;
   margin-bottom: 15px;
 }
-/* line 275, ../../compass/sass/styles.scss */
+/* line 271, ../../compass/sass/styles.scss */
 .project-img img {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.14), 0 1px 2px rgba(0, 0, 0, 0.28);
 }
 
-/* line 280, ../../compass/sass/styles.scss */
+/* line 276, ../../compass/sass/styles.scss */
 .project-img-sm {
   margin-bottom: 15px;
 }
-/* line 282, ../../compass/sass/styles.scss */
+/* line 278, ../../compass/sass/styles.scss */
 .project-img-sm img {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.14), 0 1px 2px rgba(0, 0, 0, 0.28);
 }
 
-/* line 287, ../../compass/sass/styles.scss */
+/* line 283, ../../compass/sass/styles.scss */
 .project-header {
   display: flex;
 }
 
-/* line 291, ../../compass/sass/styles.scss */
+/* line 287, ../../compass/sass/styles.scss */
 .project-title {
   align-self: flex-start;
   padding-left: 20px;
@@ -297,7 +297,7 @@ body {
   font-weight: bold;
 }
 
-/* line 303, ../../compass/sass/styles.scss */
+/* line 299, ../../compass/sass/styles.scss */
 .project-sub-title {
   font-family: 'Montserrat', sans-serif;
   color: rgba(0, 0, 0, 0.5);
@@ -305,7 +305,7 @@ body {
   font-size: 14px;
 }
 
-/* line 310, ../../compass/sass/styles.scss */
+/* line 306, ../../compass/sass/styles.scss */
 .github-repo {
   padding-top: 35px;
   text-align: right;
@@ -313,15 +313,15 @@ body {
   font-size: 13px;
   margin-left: auto;
 }
-/* line 316, ../../compass/sass/styles.scss */
+/* line 312, ../../compass/sass/styles.scss */
 .github-repo a {
   text-decoration: none;
 }
-/* line 319, ../../compass/sass/styles.scss */
+/* line 315, ../../compass/sass/styles.scss */
 .github-repo a:hover {
   cursor: pointer;
 }
-/* line 322, ../../compass/sass/styles.scss */
+/* line 318, ../../compass/sass/styles.scss */
 .github-repo span {
   padding: 5px;
   background-color: #3993DD;
@@ -330,7 +330,7 @@ body {
   letter-spacing: 1px;
 }
 
-/* line 332, ../../compass/sass/styles.scss */
+/* line 328, ../../compass/sass/styles.scss */
 .project-content {
   line-height: 1.2em;
   font-size: 14px;
@@ -338,12 +338,12 @@ body {
   padding: 15px;
   margin-bottom: 15px;
 }
-/* line 338, ../../compass/sass/styles.scss */
+/* line 334, ../../compass/sass/styles.scss */
 .project-content span {
   line-height: 1.3em;
 }
 
-/* line 347, ../../compass/sass/styles.scss */
+/* line 343, ../../compass/sass/styles.scss */
 .project-tech {
   display: flex;
   flex-flow: row wrap;
@@ -352,12 +352,12 @@ body {
   align-items: stretch;
 }
 
-/* line 355, ../../compass/sass/styles.scss */
+/* line 351, ../../compass/sass/styles.scss */
 #tech-title {
   margin-bottom: 25px;
   text-align: center;
 }
-/* line 359, ../../compass/sass/styles.scss */
+/* line 355, ../../compass/sass/styles.scss */
 #tech-title span {
   letter-spacing: 2px;
   padding-bottom: 3px;
@@ -366,7 +366,7 @@ body {
   color: #000;
 }
 
-/* line 368, ../../compass/sass/styles.scss */
+/* line 364, ../../compass/sass/styles.scss */
 .tech-card {
   margin: 7px 7px 0 0;
   height: 25px;
@@ -378,7 +378,7 @@ body {
   border-radius: 2px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.14);
 }
-/* line 378, ../../compass/sass/styles.scss */
+/* line 374, ../../compass/sass/styles.scss */
 .tech-card span {
   letter-spacing: 1px;
   padding-left: 8px;
@@ -386,18 +386,18 @@ body {
   line-height: 2em;
 }
 
-/* line 386, ../../compass/sass/styles.scss */
+/* line 382, ../../compass/sass/styles.scss */
 .name {
   font-size: 24px;
   margin-bottom: 5px;
 }
 
-/* line 391, ../../compass/sass/styles.scss */
+/* line 387, ../../compass/sass/styles.scss */
 .title {
   font-size: 18px;
 }
 
-/* line 395, ../../compass/sass/styles.scss */
+/* line 391, ../../compass/sass/styles.scss */
 .title, .name {
   font-family: 'Merriweather', sans-serif;
   letter-spacing: .5px;
@@ -406,38 +406,38 @@ body {
   padding-bottom: 5px;
 }
 
-/* line 403, ../../compass/sass/styles.scss */
+/* line 399, ../../compass/sass/styles.scss */
 .years {
   font-size: 14px;
   text-align: center;
   margin-bottom: 20px;
 }
 
-/* line 413, ../../compass/sass/styles.scss */
+/* line 409, ../../compass/sass/styles.scss */
 .skills-wrapper {
   font-size: 14px;
 }
-/* line 415, ../../compass/sass/styles.scss */
+/* line 411, ../../compass/sass/styles.scss */
 .skills-wrapper ul {
   list-style: circle;
 }
 
-/* line 420, ../../compass/sass/styles.scss */
+/* line 416, ../../compass/sass/styles.scss */
 .resume-item, .honors-item {
   font-size: 14px;
   padding: 10px;
 }
-/* line 423, ../../compass/sass/styles.scss */
+/* line 419, ../../compass/sass/styles.scss */
 .resume-item span, .honors-item span {
   font-style: italic;
 }
 
-/* line 434, ../../compass/sass/styles.scss */
+/* line 430, ../../compass/sass/styles.scss */
 .contact-item {
   overflow: hidden;
 }
 
-/* line 438, ../../compass/sass/styles.scss */
+/* line 434, ../../compass/sass/styles.scss */
 .contact-title {
   font-size: 20px;
   font-family: 'Merriweather', sans-serif;
@@ -447,7 +447,7 @@ body {
   padding-bottom: 5px;
 }
 
-/* line 447, ../../compass/sass/styles.scss */
+/* line 443, ../../compass/sass/styles.scss */
 #email {
   margin-top: 50px;
   margin-bottom: 40px;
@@ -458,17 +458,17 @@ body {
   letter-spacing: 2px;
 }
 
-/* line 457, ../../compass/sass/styles.scss */
+/* line 453, ../../compass/sass/styles.scss */
 .contact-card-wrapper {
   margin-top: 50px;
 }
 
-/* line 461, ../../compass/sass/styles.scss */
+/* line 457, ../../compass/sass/styles.scss */
 .github, .linkedin, .resume {
   padding-bottom: 15px;
 }
 
-/* line 467, ../../compass/sass/styles.scss */
+/* line 463, ../../compass/sass/styles.scss */
 .contact-card {
   position: relative;
   width: 200px;
@@ -480,17 +480,17 @@ body {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.14);
 }
 
-/* line 480, ../../compass/sass/styles.scss */
+/* line 476, ../../compass/sass/styles.scss */
 .contact-icon {
   display: inline-block;
   padding: 9px 15px;
 }
-/* line 483, ../../compass/sass/styles.scss */
+/* line 479, ../../compass/sass/styles.scss */
 .contact-icon .fa {
   color: #3993dd;
 }
 
-/* line 488, ../../compass/sass/styles.scss */
+/* line 484, ../../compass/sass/styles.scss */
 .contact-card-text {
   letter-spacing: 2px;
   display: inline;

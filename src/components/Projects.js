@@ -87,13 +87,13 @@ class Projects extends Component {
                                 <div className="hidden-xs col-sm-6 project-img">
                                     <img
                                         className="img-responsive"
-                                        src={require("../images/ebay.png")}
+                                        src={require("../images/auctioneer.png")}
                                         role={"presentation"} />
                                 </div>
                                 <div className="hidden-sm hidden-md hidden-lg col-xs-12 project-img-sm">
                                     <img
                                         className="img-responsive"
-                                        src={require("../images/ebay.png")}
+                                        src={require("../images/auctioneer.png")}
                                         role={"presentation"} />
                                 </div>
                                 <div className="col-xs-12 col-sm-6 project-content-wrapper">

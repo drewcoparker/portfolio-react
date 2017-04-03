@@ -175,10 +175,6 @@ body {
 
 }
 
-.experience-container, .edu-container, .projects-container, .contact-container {
-    // box-shadow: -1px 0 2px 0 rgba(0,0,0,0.12), 1px 0 2px 0 rgba(0,0,0,0.12), 0 1px 1px 0 rgba(0,0,0,0.24);
-}
-
 .about-container {
     border-top: 5px solid #A5CDEF;
 }
@@ -203,7 +199,7 @@ body {
 
 .item-wrapper {
     max-width: 900px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .work-item, .edu-item, .about-item, .project-item, .contact-item {
