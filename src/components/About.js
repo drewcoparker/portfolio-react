@@ -15,7 +15,7 @@ class About extends Component {
                             <div className="about-item">
                                 <div className="about-img">
                                     <img
-                                        src={require("../images/drew_bust.png")}
+                                        src={require("../images/drew_circle.png")}
                                         role={"presentation"}
                                     />
                                 </div>
