@@ -45,8 +45,8 @@ class About extends Component {
                                         </div>
                                         <div className="skills-2">
                                             <div>Automation testing</div>
-                                            <div>Restful APIs</div>
-                                            <div>Python</div>
+                                            <div>Amazon Web Services</div>
+                                            <div>Python & Ruby</div>
                                             <div>Google Maps & MapBox APIs</div>
                                             <div>Remote Sensing</div>
                                             <div>GIS & Cartography</div>
